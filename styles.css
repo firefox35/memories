@@ -17,13 +17,29 @@ main {
 
 footer {
     background-color: aqua;
-    min-height: 100px;
+    min-height: 50px;
+    text-align: center;
+    padding-top: 30px;
 }
 
 #logo {
-    font-size: 150%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: red;
+    font-size: 180%;
     list-style-type: none;
     text-decoration: none;
+
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+h1 {
+    font-family: fantasy;
 
 }
 

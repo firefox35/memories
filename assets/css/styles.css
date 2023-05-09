@@ -32,6 +32,10 @@ footer {
 
 }
 
+.active {
+    border-bottom: 1px solid red;
+}
+
 h1,
 h2,
 h3 {
@@ -83,4 +87,33 @@ h1 {
 
 #media a {
     text-decoration: none;
+}
+
+#top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-around;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#top h1 {
+    padding-top: 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    flex-flow: column;
+}
+
+#form {
+    padding-left: 500px;
+    text-align: justify;
+    font-size: 20px;
+    width: 400;
 }

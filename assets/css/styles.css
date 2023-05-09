@@ -117,3 +117,25 @@ h1 {
     font-size: 20px;
     width: 400;
 }
+
+#img {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    border-color: solid black;
+    border-spacing: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#right {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+#left {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}

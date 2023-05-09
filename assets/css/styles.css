@@ -58,6 +58,7 @@ h1 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+    padding-bottom: 10px;
 }
 
 #pages a {
@@ -66,16 +67,18 @@ h1 {
 
 #media {
     font-size: 80%;
-    letter-spacing: 2px;
+    letter-spacing: 12px;
     text-align: center;
 }
 
 #media li {
     list-style-type: none;
     display: inline-block;
-    padding: 10px;
-    padding-top: 5px;
-    padding-bottom: 40px;
+    width: 200;
+    margin-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+
 }
 
 #media a {

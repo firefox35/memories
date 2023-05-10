@@ -16,7 +16,7 @@ main {
 }
 
 footer {
-    background-color: aqua;
+    background-color: rgb(245, 240, 220);
     min-height: 50px;
     text-align: center;
     padding-top: 30px;
@@ -43,7 +43,9 @@ h3 {
 }
 
 h1 {
-    font-family: fantasy;
+    font-family: Brush Script MT,
+        Brush Script Std,
+        cursive;
 
 }
 
@@ -114,11 +116,16 @@ h1 {
 #info {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding: 10px;
-    padding-left: 30px;
+    flex-flow: wrap;
+    justify-content: space-around;
+    padding: 50px;
     padding-right: 30px;
-    text-align: justify;
+    padding-left: 10px;
+}
+
+#info aside {
+    padding-right: 220px;
+    text-align: left;
 }
 
 #info img {
@@ -128,10 +135,32 @@ h1 {
 }
 
 #form {
-    padding-left: 500px;
+    font-family: Brush Script MT,
+        Brush Script Std,
+        cursive;
+    text-size-adjust: 40px;
+    padding-left: 400px;
     text-align: justify;
-    font-size: 20px;
+    font-size: 40px;
     width: 400;
+}
+
+#form name surname email {
+    width: 20px;
+    height: 10px;
+    border: 2px solid red;
+}
+
+#form textarea {
+    width: 600px;
+    height: 300px;
+    border: 2px solid red;
+}
+
+#form button {
+    align-items: center;
+    width: 50;
+    height: 5;
 }
 
 #img {
@@ -191,4 +220,8 @@ h1 {
 
 .mission img {
     border-radius: 50%;
+}
+
+#space {
+    padding-top: 40px;
 }

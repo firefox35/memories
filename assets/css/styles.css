@@ -105,10 +105,26 @@ h1 {
     padding-top: 50px;
 }
 
-.info {
+#top img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+#info {
     display: flex;
     flex-direction: row;
-    flex-flow: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+#info img {
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
 }
 
 #form {
@@ -132,10 +148,47 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: right;
+    padding-left: 30px;
+}
+
+#right img {
+    width: 200px;
+    height: 200px;
 }
 
 #left {
     display: flex;
     flex-direction: row;
     justify-content: left;
+    padding-right: 30px;
+
+}
+
+#left img {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+#first {
+    padding-left: 70px;
+}
+
+#first img {
+    border: 5px solid black;
+}
+
+.mission {
+    padding-left: 70px;
+    padding-right: 80px;
+    padding-bottom: 30px;
+}
+
+.mission #left {
+    padding-right: 30px;
+}
+
+.mission img {
+    border-radius: 50%;
 }

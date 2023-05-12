@@ -20,6 +20,7 @@ footer {
     min-height: 50px;
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 #logo {
@@ -33,7 +34,7 @@ footer {
 }
 
 .active {
-    border-bottom: 1px solid red;
+    border-bottom: 2px solid red;
 }
 
 h1,
@@ -71,10 +72,11 @@ h1 {
     text-decoration: none;
 }
 
+
 #media {
     font-size: 80%;
     letter-spacing: 12px;
-    text-align: center;
+    padding-left: 40%;
 }
 
 #media li {
@@ -116,23 +118,83 @@ h1 {
 #info {
     display: flex;
     flex-direction: row;
-    flex-flow: wrap;
     justify-content: space-around;
     padding: 50px;
-    padding-right: 30px;
-    padding-left: 10px;
+    padding-right: 40px;
+    padding-left: 30px;
 }
 
 #info aside {
-    padding-right: 220px;
+    padding-right: 20px;
     text-align: left;
 }
 
 #info img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border: 5px solid black;
 }
+
+#info2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+    padding-right: 40px;
+
+}
+
+#info2 aside {
+    padding-right: 20px;
+    text-align: left;
+}
+
+#info2 img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+}
+
+#info3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+    padding-right: 30px;
+
+}
+
+#info3 aside {
+    padding-right: 10px;
+    text-align: left;
+}
+
+#info3 img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+}
+
+#info4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+    padding-right: 30px;
+
+}
+
+#info4 aside {
+    padding-right: 10px;
+    text-align: left;
+}
+
+#info4 img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+}
+
 
 #form {
     font-family: Brush Script MT,
@@ -180,9 +242,23 @@ h1 {
     padding-left: 30px;
 }
 
+#right h2 {
+    text-align: right;
+}
+
 #right img {
     width: 200px;
     height: 200px;
+}
+
+#right aside {
+    padding-left: 175px;
+    padding-right: 5px;
+    text-align: justify;
+}
+
+#right aside p {
+    padding-right: 5px;
 }
 
 #left {
@@ -190,7 +266,10 @@ h1 {
     flex-direction: row;
     justify-content: left;
     padding-right: 30px;
+}
 
+#left h2 {
+    text-align: left;
 }
 
 #left img {
@@ -198,10 +277,15 @@ h1 {
     height: 200px;
 }
 
-
+#left aside {
+    padding-right: 170px;
+    padding-left: 5px;
+    text-align: justify;
+}
 
 #first {
-    padding-left: 70px;
+    padding-left: 150px;
+    padding-bottom: 40px;
 }
 
 #first img {
@@ -209,9 +293,10 @@ h1 {
 }
 
 .mission {
-    padding-left: 70px;
-    padding-right: 80px;
-    padding-bottom: 30px;
+    padding-left: 150px;
+    padding-right: 180px;
+    padding-bottom: 20px;
+    padding-top: 50px;
 }
 
 .mission #left {
@@ -224,4 +309,9 @@ h1 {
 
 #space {
     padding-top: 40px;
+}
+
+#space #first img {
+    width: 380px;
+    height: 400px;
 }

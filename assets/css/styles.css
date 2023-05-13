@@ -102,7 +102,7 @@ h1 {
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 5px;
 }
 
 #top h1 {
@@ -115,17 +115,22 @@ h1 {
     height: 200px;
 }
 
+#info-body {
+    padding-top: 30px;
+}
+
 #info {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 50px;
     padding-right: 40px;
-    padding-left: 30px;
+
 }
 
 #info aside {
-    padding-right: 20px;
+    padding-right: 60px;
+    padding-left: 20px;
     text-align: left;
 }
 
@@ -146,6 +151,7 @@ h1 {
 
 #info2 aside {
     padding-right: 20px;
+    padding-left: 20px;
     text-align: left;
 }
 
@@ -166,6 +172,7 @@ h1 {
 
 #info3 aside {
     padding-right: 10px;
+    padding-left: 20px;
     text-align: left;
 }
 
@@ -180,12 +187,14 @@ h1 {
     flex-direction: row;
     justify-content: space-around;
     padding: 50px;
-    padding-right: 30px;
+    padding-right: 60px;
+    padding-left: 50px;
 
 }
 
 #info4 aside {
     padding-right: 10px;
+    padding-left: 20px;
     text-align: left;
 }
 
@@ -195,35 +204,69 @@ h1 {
     border: 5px solid black;
 }
 
+#form-body {
+    display: flex;
+    justify-content: center;
+
+}
 
 #form {
+
     font-family: Brush Script MT,
         Brush Script Std,
         cursive;
-    text-size-adjust: 40px;
-    padding-left: 400px;
+    text-size-adjust: 60px;
+    padding-left: 50px;
+    padding-bottom: 50px;
     text-align: justify;
-    font-size: 40px;
+    font-size: 25px;
     width: 400;
+    border: 600px;
+
+}
+
+#form name email {
+    padding-right: 200px;
 }
 
 #form name surname email {
-    width: 20px;
-    height: 10px;
+    width: 200px;
+    height: 30px;
     border: 2px solid red;
 }
 
 #form textarea {
-    width: 600px;
-    height: 300px;
-    border: 2px solid red;
+    width: 580px;
+    height: 250px;
+    border: 2px solid black;
 }
 
-#form button {
-    align-items: center;
-    width: 50;
-    height: 5;
+#name #email #surname #message {
+    font-size: medium;
 }
+
+.box {
+    display: flex;
+    justify-items: center;
+    width: 450px;
+    height: 40px;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 120px;
+}
+
+#button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+    width: 585px;
+    height: 50px;
+    border: 2px solid black;
+    color: blue;
+    font-weight: 400;
+    font-size: 150;
+}
+
 
 #img {
     display: flex;
@@ -252,13 +295,19 @@ h1 {
 }
 
 #right aside {
-    padding-left: 175px;
-    padding-right: 5px;
+    padding-left: 185px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 0px;
     text-align: justify;
 }
 
+#right aside h2 {
+    padding-top: 10px;
+}
+
 #right aside p {
-    padding-right: 5px;
+    padding-top: 20px;
 }
 
 #left {
@@ -278,9 +327,18 @@ h1 {
 }
 
 #left aside {
-    padding-right: 170px;
-    padding-left: 5px;
+    padding-right: 185px;
+    padding-left: 20px;
+    padding-top: 15px;
     text-align: justify;
+}
+
+#left aside h2 {
+    padding-top: 10px;
+}
+
+#left aside p {
+    padding-top: 20px;
 }
 
 #first {
@@ -310,6 +368,11 @@ h1 {
 #space {
     padding-top: 40px;
 }
+
+#space label {
+    font-size: large;
+}
+
 
 #space #first img {
     width: 380px;

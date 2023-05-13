@@ -58,25 +58,29 @@
         <h1>Contact Page</h1>
         <img src="assets/images/family-happiness.jpg" alt="Family Happiness">
     </div>
-    <form id="form">
-        <label for="fname">Name:</label>
-        <input type="text" id="fname" name="first_name" type="text" required></input>
-        <br>
-        <label for="lname">Surname:</label>
-        <input type="text" id="lname" name="surname" type="text" required></input>
-        <br>
-        <label for="email">Email:</label>
-        <input type="text" id="email" name="email" type="text" width="200" height="10" required></input>
-        <br>
-        <label for="description">Please describe your requirements below:</label>
-        <br>
-        <textarea>Enter here!</textarea>
-        <br>
-        <button>
-            <input type="button" name="button" value="Let's Talk"></input>
-        </button>
-    </form>
+    <div id="form-body">
+        <form id="form">
+            <div id="name">
+                <label for="fname" id="name">Your first name:</label>
+                <input type="text" id="fname" name="first_name" type="text" class="box" required></input>
+            </div>
+            <div id="surname">
+                <label for="lname" id="surname">Your surname:</label>
+                <input type="text" id="lname" name="surname" type="text" class="box" required></input>
+            </div>
+            <div id="email">
+                <label for="email" id="email">Your email address:</label>
+                <input type="text" id="email" name="email" type="text" class="box" required></input>
+            </div>
+            <div id="message">
+                <label for="description">Please describe your requirements below:</label><br>
+                <textarea id="message" required>Enter here!</textarea>
+            </div>
 
+            <button type="submit" id="button" name="Let's Talk">Let's Talk</button>
+
+        </form>
+    </div>
     <footer>
         <ul>
             <li>Memories</li>

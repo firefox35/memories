@@ -5,10 +5,7 @@
     box-sizing: 0;
 }
 
-header {
-    background-color: beige;
-    min-height: 80px;
-}
+
 
 main {
     background-color: rgb(245, 255, 240);
@@ -19,23 +16,10 @@ footer {
     background-color: rgb(245, 240, 220);
     min-height: 50px;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 21px;
 }
 
-#logo {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
-    color: red;
-    font-size: 180%;
-    list-style-type: none;
-    text-decoration: none;
-
-}
-
-.active {
-    border-bottom: 2px solid red;
-}
 
 h1,
 h2,
@@ -47,6 +31,22 @@ h1 {
     font-family: Brush Script MT,
         Brush Script Std,
         cursive;
+}
+
+/*Header Section of Home, About and Contact Pages*/
+header {
+    background-color: beige;
+    min-height: 80px;
+}
+
+#logo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: red;
+    font-size: 180%;
+    list-style-type: none;
+    text-decoration: none;
+
 }
 
 #logo li {
@@ -71,6 +71,9 @@ h1 {
     text-decoration: none;
 }
 
+.active {
+    border-bottom: 2px solid red;
+}
 
 #media {
     font-size: 80%;
@@ -92,168 +95,7 @@ h1 {
     text-decoration: none;
 }
 
-#top {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: space-around;
-    text-align: center;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 50px;
-    padding-bottom: 5px;
-}
-
-#top h1 {
-    padding-top: 50px;
-    font-size: 50px;
-}
-
-#top img {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-}
-
-#form-header h1 {
-    font-size: 40px;
-}
-
-#info-body {
-    padding-top: 30px;
-    font-size: 30px;
-    font-family: Brush Script MT,
-        Brush Script Std,
-        cursive;
-}
-
-#info {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-left: 90px;
-    padding-right: 90px;
-    padding-top: 55px;
-    text-align: justify;
-}
-
-#info h4 {
-    font-size: 30px;
-    font-family: Brush Script MT,
-        Brush Script Std,
-        cursive;
-}
-
-#info img {
-    width: 200px;
-    height: 200px;
-    border: 5px solid black;
-}
-
-#info-1 h4 {
-    padding-left: 15px;
-}
-
-#info-1 p {
-    width: 420px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-#info2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 55px;
-    padding-left: 90px;
-    padding-right: 90px;
-    padding-bottom: 20px;
-    text-align: justify;
-}
-
-#info2 h4 {
-    font-size: 30px;
-    font-family: Brush Script MT,
-        Brush Script Std,
-        cursive;
-}
-
-#info2 img {
-    width: 200px;
-    height: 200px;
-    border: 5px solid black;
-}
-
-#form-body {
-    display: flex;
-    justify-content: center;
-}
-
-#form {
-    font-family: Brush Script MT,
-        Brush Script Std,
-        cursive;
-    text-size-adjust: 60px;
-    padding-left: 50px;
-    padding-bottom: 50px;
-    text-align: justify;
-    font-size: 25px;
-    width: 400;
-    border: 600px;
-}
-
-#form name email {
-    padding-right: 200px;
-}
-
-#form name surname email {
-    width: 200px;
-    height: 30px;
-    border: 2px solid red;
-}
-
-#form textarea {
-    width: 580px;
-    height: 250px;
-    border: 2px solid black;
-}
-
-#name #email #surname #message {
-    font-size: medium;
-}
-
-.box {
-    display: flex;
-    justify-items: center;
-    width: 450px;
-    height: 40px;
-    border: 2px solid black;
-    padding-left: 10px;
-    padding-right: 120px;
-}
-
-#button {
-    display: inline-block;
-    text-align: center;
-    vertical-align: center;
-    width: 585px;
-    height: 50px;
-    border: 2px solid black;
-    color: blue;
-    font-weight: 400;
-    font-size: 150;
-}
-
-
-#img {
-    display: flex;
-    align-content: space-around;
-    justify-content: space-around;
-    border-color: solid black;
-    border-spacing: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
+/* Home pages body*/
 
 #right {
     display: flex;
@@ -274,7 +116,7 @@ h1 {
 #right aside {
     padding-left: 185px;
     padding-right: 20px;
-    padding-top: 15px;
+    padding-top: 25px;
     padding-bottom: 0px;
     text-align: justify;
 }
@@ -299,7 +141,6 @@ h1 {
 }
 
 #left h2 {
-
     text-align: left;
 }
 
@@ -311,7 +152,7 @@ h1 {
 #left aside {
     padding-right: 185px;
     padding-left: 20px;
-    padding-top: 15px;
+    padding-top: 25px;
     text-align: justify;
 }
 
@@ -352,12 +193,13 @@ h1 {
 }
 
 #space {
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 #space h1 {
     font-size: 45px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 40px;
 }
 
 
@@ -376,5 +218,324 @@ h1 {
 }
 
 #space h3 {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+/*About Page Main Body*/
+
+#info-body {
+    padding-top: 30px;
+    font-size: 30px;
+    font-family: Brush Script MT,
+        Brush Script Std,
+        cursive;
+}
+
+#info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 70px;
+    text-align: justify;
+}
+
+#info h4 {
+    font-size: 30px;
+    font-family: Brush Script MT,
+        Brush Script Std,
+        cursive;
+}
+
+#info img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+}
+
+#info-1 h4 {
+    padding-left: 15px;
+}
+
+#info-1 p {
+    width: 420px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#info2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 55px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 72px;
+    text-align: justify;
+}
+
+#info2 h4 {
+    font-size: 30px;
+    font-family: Brush Script MT,
+        Brush Script Std,
+        cursive;
+}
+
+#info2 img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+}
+
+/*Contact Page Main Body*/
+
+#top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-around;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
     padding-bottom: 5px;
 }
+
+#top h1 {
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+#top img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+
+#form {
+    font-family: Brush Script MT,
+        Brush Script Std,
+        cursive;
+    text-size-adjust: 60px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    text-align: justify;
+    font-size: 25px;
+    width: 400;
+    border: 600px;
+}
+
+#form-header h1 {
+    font-size: 40px;
+}
+
+#form-body {
+    display: flex;
+    justify-content: center;
+}
+
+#form name email {
+    padding-right: 200px;
+}
+
+#form name surname email {
+    width: 200px;
+    height: 30px;
+    border: 2px solid red;
+}
+
+#form textarea {
+    width: 580px;
+    height: 250px;
+    border: 2px solid black;
+}
+
+#name #email #surname #message {
+    font-size: medium;
+}
+
+.box {
+    display: flex;
+    justify-items: center;
+    width: 450px;
+    height: 40px;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 120px;
+}
+
+button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+    width: 585px;
+    height: 50px;
+    border: 2px solid black;
+    background-color: red;
+    font-family: Brush Script MT,
+        Brush Script Std,
+        cursive;
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+
+#img {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    border-color: solid black;
+    border-spacing: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*Response & Unavailable Pages*/
+
+#response {
+    text-align: center;
+    padding-top: 80px;
+    color: red;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#unavailable a {
+    text-decoration: none;
+}
+
+
+/*Media Queries*/
+
+/* For large to medium screens sizes from 1200px wide and down */
+@media screen and(max-width:1200px) {}
+
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width:950px) {
+    .body {
+        max-width: 950px;
+        max-height: 950px;
+    }
+
+    #media {
+        clear: center;
+        float: left;
+    }
+
+    #pages {
+        clear: right;
+        float: right;
+    }
+
+    #space #first img {
+        display: flex;
+        flex-direction: row-reverse;
+        align-content: space-around;
+        justify-content: space-around;
+        width: 300px;
+        height: 300px;
+    }
+
+    footer {
+        text-align: center;
+
+    }
+
+    /* For small screens sizes from 800px wide and down */
+    @media screen and (max-width:950px) {
+        .body {
+            max-width: 800px;
+            max-height: 800px;
+        }
+
+        #space #first {
+            padding-left: 10px;
+            padding-right: 40px;
+        }
+
+
+        #space #first img {
+            display: flex;
+            flex-direction: column-reverse;
+            align-content: space-around;
+            justify-content: space-around;
+            width: 100px;
+            height: 100px;
+
+        }
+
+        #space h3,
+        h2 {
+            font-size: 15px;
+        }
+
+        .mission {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 50px;
+        }
+
+        .mission #left h4,
+        p {
+            text-align: left;
+            width: 300px;
+        }
+
+        .mission #left h4 {
+            font-size: 15px;
+        }
+
+        .mission #left p {
+            font-size: 13px;
+        }
+
+
+
+        .mission #left {
+            float: left;
+            padding-right: 10px;
+
+        }
+
+        .mission #left img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .mission #right h4,
+        p {
+            text-align: left;
+            width: 300px;
+        }
+
+        .mission #right h4 {
+            font-size: 15px;
+        }
+
+        .mission #right p {
+            font-size: 13px;
+        }
+
+        .mission #right {
+            float: right;
+        }
+
+        .mission #right img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .mission #right h4,
+        p {
+            text-align: left;
+        }
+
+        footer {
+            text-align: center;
+        }
+    }

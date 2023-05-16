@@ -28,14 +28,14 @@ Memories is a private members club that makes your dreams come true. We all have
 * Information
     * 
 
-![Home Page] (assets/images/memories-home-page.png)
+![Home Page](assets/images/memories-home-page.png)
 
 
 ## About Page
 
 * Information
 
-![About Page] (assets/images/about-page.png)
+![About Page](assets/images/about-page.png)
 
 ## Contact Page
 
@@ -47,7 +47,7 @@ Memories is a private members club that makes your dreams come true. We all have
     * Email (required, type=text)
     * Message (required, type=text)
 
-![Contact Page] (assets/images/contact-form.PNG)
+![Contact Page](assets/images/contact-form.PNG)
 
 ## Design
 

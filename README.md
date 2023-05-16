@@ -26,35 +26,66 @@ Memories is a private members club that makes your dreams come true. We all have
 ### Home Page
 
 * Information
-    * W
+    * 
 
-* Images
+![Home Page] (assets/images/memories-home-page.png)
+
 
 ## About Page
 
 * Information
 
-* Images
+![About Page] (assets/images/about-page.png)
 
 ## Contact Page
 
-* Information
+*Contact Form
+  * The implementation of a contact form will allow user to contact Memories for more information.
+  * This form with consist of the relative fields and attributes
+    * Name (required, type=text)
+    * Surname (required, type=text)
+    * Email (required, type=text)
+    * Message (required, type=text)
 
-* Images
+![Contact Page] (assets/images/contact-form.PNG)
+
+## Design
+
+* Wireframes - Uizard.io
+  * Home Page
+    ![Home Page] (assets/images/memories-home-page.png)
+  * About Page
+    ![About Page] (assets/images/about-page.png)
+  * Contact Page
+    ![Contact Page] (assets/images/contact-form.png)
 
 
 
 ## Technologies
 
 * HTML
+  * Hypertext Markup Language is the main language to create the structure of the website.
+  
 * CSS
+  * Cascading Style Sheets is used to style your content in an external file.
+  
 * Github
+  * This is used to create a repository to store yor source code as a backup.
   * <https://github.com/firefox35/memories>
+  
 * Git
-* Uizard
-  * <https://app.uizard.io/> <https://app.uizard.io/prototypes/eJQmj99X0xUXGmmjxlxK>
+  * Git is a language used to submit your code to the repository. 
+  
+* Uizard.io
+  * This application was used to create mockups of the website.
+  * <https://app.uizard.io/> 
+  * <https://app.uizard.io/prototypes/eJQmj99X0xUXGmmjxlxK>
+  
 * Webssite Mockup Generator
+  * The application was used to create image of the website into a desktop, laptop, tablet and mobile devices.
   * https://websitemockupgenerator.com/ 
+  
 * Resize Pixel
+  * It was used to resize some of the images of the website
   * https://www.resizepixel.com/
-* 
+  

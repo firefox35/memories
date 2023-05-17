@@ -47,15 +47,17 @@ Memories is a private members club that makes your dreams come true. We all have
     * Email (required, type=text)
     * Message (required, type=text)
 
-![Contact Page](assets/images/contact-form.PNG)
+![Contact Page](assets/images/contact-form.png)
 
 ## Design
 
 * Wireframes - Uizard.io
   * Home Page
     ![Home Page](assets/images/memories-home-page.png)
+
   * About Page
     ![About Page](assets/images/about-page.png)
+    
   * Contact Page
     ![Contact Page](assets/images/contact-form.png)
 

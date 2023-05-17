@@ -874,17 +874,17 @@ header {
         }
 
         #pages li {
-            margin-right: 20px;
+            margin-right: 10px;
         }
 
         #media {
             font-size: 40%;
             letter-spacing: 1px;
-            padding-left: 20%;
+            padding-left: 5%;
         }
 
         #media li {
-            width: 5px;
+            width: 2px;
             margin-left: 10px;
             padding-right: 30px;
             padding-bottom: 10px;
@@ -896,7 +896,6 @@ header {
         #first {
             display: flex;
             justify-content: center;
-
             padding-bottom: 50px;
             padding-left: 10px;
             padding-right: 10px;
@@ -923,9 +922,9 @@ header {
         }
 
         .mission {
-            height: 700px;
-            padding-left: 30px;
-            padding-right: 80px;
+            height: 915px;
+            padding-left: 10px;
+            padding-right: 10px;
             padding-bottom: 120px;
             padding-top: 30px;
         }
@@ -933,7 +932,7 @@ header {
         .mission #left h4,
         p {
             text-align: left;
-            width: 400px;
+            width: 300px;
         }
 
         .mission #left h4 {
@@ -946,7 +945,7 @@ header {
 
         .mission #left {
             float: left;
-            padding-right: 10px;
+            padding-right: 5px;
             padding-top: 20px;
 
         }
@@ -988,7 +987,7 @@ header {
         .mission #left2 h4,
         p {
             text-align: left;
-            width: 400px;
+            width: 300px;
         }
 
         .mission #left2 h4 {
@@ -1014,7 +1013,7 @@ header {
         .mission #right2 h4,
         p {
             text-align: left;
-            width: 400px;
+            width: 300px;
         }
 
         .mission #right2 h4 {

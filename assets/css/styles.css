@@ -231,7 +231,6 @@ header {
 #first {
     display: flex;
     justify-content: center;
-    width: 1510px;
     padding-bottom: 40px;
 }
 
@@ -632,7 +631,7 @@ header {
         display: flex;
         flex-direction: row;
         justify-content: right;
-        padding-left: 30px;
+        padding-left: 10px;
     }
 
     #right h2 {
@@ -645,7 +644,7 @@ header {
     }
 
     #right aside {
-        padding-left: 185px;
+        padding-left: 5px;
         padding-right: 20px;
         padding-top: 25px;
         padding-bottom: 0px;
@@ -679,7 +678,7 @@ header {
     }
 
     #right2 aside {
-        padding-left: 185px;
+        padding-left: 5px;
         padding-right: 20px;
         padding-top: 25px;
         padding-bottom: 0px;
@@ -713,7 +712,7 @@ header {
     }
 
     #left aside {
-        padding-right: 185px;
+        padding-right: 5px;
         padding-left: 20px;
         padding-top: 25px;
         text-align: justify;
@@ -746,7 +745,7 @@ header {
     }
 
     #left2 aside {
-        padding-right: 185px;
+        padding-right: 5px;
         padding-left: 20px;
         padding-top: 25px;
         text-align: justify;
@@ -754,7 +753,7 @@ header {
 
     #left2 aside h2 {
         padding-top: 10px;
-        font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+
         font-size: 35px;
     }
 
@@ -765,7 +764,6 @@ header {
     #first {
         display: flex;
         justify-content: center;
-        width: 1000px;
         padding-bottom: 40px;
     }
 
@@ -774,8 +772,8 @@ header {
     }
 
     .mission {
-        padding-left: 150px;
-        padding-right: 180px;
+        padding-left: 50px;
+        padding-right: 80px;
         padding-bottom: 20px;
         padding-top: 50px;
     }
@@ -852,7 +850,7 @@ header {
 
         /*Header*/
         header {
-            padding-bottom: 20px;
+            padding-bottom: 40px;
 
         }
 
@@ -874,7 +872,8 @@ header {
         }
 
         #pages li {
-            margin-right: 10px;
+            margin-right: 40px;
+
         }
 
         #media {
@@ -885,7 +884,7 @@ header {
 
         #media li {
             width: 2px;
-            margin-left: 10px;
+            margin-left: 25px;
             padding-right: 30px;
             padding-bottom: 10px;
         }
@@ -895,16 +894,17 @@ header {
 
         #first {
             display: flex;
+            flex-direction: column;
             justify-content: center;
-            padding-bottom: 50px;
-            padding-left: 10px;
-            padding-right: 10px;
+            padding-bottom: 20px;
+            padding-left: 1px;
+            padding-right: 1px;
         }
 
 
         #first img {
             height: 20px;
-            width: 300px;
+
         }
 
         #space h1 {
@@ -923,25 +923,29 @@ header {
 
         .mission {
             height: 915px;
-            padding-left: 10px;
-            padding-right: 10px;
-            padding-bottom: 120px;
-            padding-top: 30px;
+            padding-left: 1px;
+            padding-right: 1px;
+            padding-bottom: 80px;
+            padding-top: 1px;
         }
 
-        .mission #left h4,
-        p {
+        .mission #left p {
             text-align: left;
-            width: 300px;
+            font-size: 13px;
+            padding-right: 8px;
+            padding-bottom: 20px;
+            padding-top: 1px;
+
+
         }
 
         .mission #left h4 {
             font-size: 15px;
+            padding-bottom: 10px;
+            padding-top: 1px;
         }
 
-        .mission #left p {
-            font-size: 13px;
-        }
+
 
         .mission #left {
             float: left;
@@ -956,18 +960,18 @@ header {
 
         }
 
-        .mission #right h4,
-        p {
-            text-align: left;
-            width: 300px;
-        }
 
         .mission #right h4 {
             font-size: 15px;
+            text-align: right;
         }
 
         .mission #right p {
             font-size: 13px;
+            text-align: right;
+            padding-right: 5px;
+            padding-bottom: 20px;
+            padding-top: 1px;
         }
 
         .mission #right {
@@ -979,23 +983,21 @@ header {
             height: 50px;
         }
 
-        .mission #right h4,
-        p {
+        .mission #right h4 {
             text-align: left;
-        }
-
-        .mission #left2 h4,
-        p {
-            text-align: left;
-            width: 300px;
         }
 
         .mission #left2 h4 {
             font-size: 15px;
+
         }
 
         .mission #left2 p {
             font-size: 13px;
+            text-align: left;
+            padding-left: 5px;
+            padding-bottom: 20px;
+            padding-top: 1px;
         }
 
         .mission #left2 {
@@ -1010,11 +1012,7 @@ header {
             height: 50px;
         }
 
-        .mission #right2 h4,
-        p {
-            text-align: left;
-            width: 300px;
-        }
+
 
         .mission #right2 h4 {
             font-size: 15px;
@@ -1022,6 +1020,10 @@ header {
 
         .mission #right2 p {
             font-size: 13px;
+            text-align: right;
+            padding-right: 5px;
+            padding-bottom: 20px;
+            padding-top: 1px;
         }
 
         .mission #right2 {
@@ -1044,6 +1046,8 @@ header {
             padding-bottom: 20px;
         }
 
+      
+
         /*Footer*/
         footer {
             text-align: center;
@@ -1057,7 +1061,13 @@ header {
         }
 
         #info {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
             text-align: justify;
+            padding-top: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
         }
 
         #info h4 {
@@ -1070,7 +1080,13 @@ header {
         }
 
         #info2 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
             text-align: justify;
+            padding-top: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
         }
 
         #info2 h4 {
@@ -1083,7 +1099,13 @@ header {
         }
 
         #info3 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
             text-align: justify;
+            padding-top: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
         }
 
         #info3 h4 {
@@ -1096,7 +1118,13 @@ header {
         }
 
         #info4 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
             text-align: justify;
+            padding-top: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
         }
 
         #info4 h4 {
@@ -1110,66 +1138,74 @@ header {
         }
 
         #info-1 p {
-            width: 120px;
+            width: 270px;
             font-size: 10px;
             text-align: justify;
         }
 
         #info-2 p {
-            width: 120px;
+            width: 270px;
             font-size: 10px;
             text-align: justify;
         }
 
         #info-3 p {
-            width: 120px;
+            width: 270px;
             font-size: 10px;
             text-align: justify;
         }
 
         #info-4 p {
-            width: 120px;
+            width: 270px;
             font-size: 10px;
             text-align: justify;
         }
 
         #info-5 p {
-            width: 120px;
+            width: 270px;
             font-size: 10px;
             text-align: justify;
         }
 
         #info-6 p {
-            width: 120px;
+            width: 270px;
             font-size: 10px;
             text-align: justify;
         }
 
         #info-7 p {
-            width: 120px;
+            width: 270px;
             font-size: 10px;
+            text-align: justify;
         }
 
         #info-8 p {
-            width: 120px;
+            width: 270px;
             font-size: 10px;
             text-align: justify;
         }
 
         #info-9 p {
-            width: 120px;
+            width: 270px;
             font-size: 10px;
             text-align: justify;
         }
 
         #info-10 p {
-            width: 120px;
+            width: 270px;
             font-size: 10px;
             text-align: justify;
         }
 
         #info5 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
             text-align: justify;
+            padding-top: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-bottom: 10px;
         }
 
         #info5 h4 {
@@ -1188,7 +1224,7 @@ header {
             justify-content: space-between;
             align-content: space-around;
             text-align: center;
-            padding-left: 120px;
+            padding-left: 50px;
             padding-right: 80px;
             padding-top: 30px;
             padding-bottom: 25px;
@@ -1206,40 +1242,31 @@ header {
         }
 
         #form {
-            font-family: 'Brush Script MT', 'Brush Script Std', cursive;
-            text-size-adjust: 60px;
-            padding-left: 60px;
-            padding-right: 5px;
-            padding-bottom: 50px;
-            text-align: justify;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-bottom: 30px;
             font-size: 20px;
-            width: 400px;
-            border: 600px;
-        }
 
-        #form-body {
-            display: flex;
-            justify-content: center;
         }
 
         #form-header h1 {
-            font-size: 25px;
+            font-size: 20px;
         }
 
         #form name email {
-            padding-right: 200px;
+            padding-right: 100px;
         }
 
         #form name surname email {
             width: 200px;
             height: 30px;
-            border: 105px solid red;
+
         }
 
         #form textarea {
-            width: 380px;
+            width: 250px;
             height: 250px;
-            border: 2px solid black;
+
         }
 
         #name #email #surname #message {
@@ -1249,7 +1276,7 @@ header {
         .box {
             display: flex;
             justify-items: center;
-            width: 250px;
+            width: 120px;
             height: 40px;
             border: 2px solid black;
             padding-left: 10px;
@@ -1260,14 +1287,11 @@ header {
             display: inline-block;
             text-align: center;
             vertical-align: center;
-            width: 385px;
+            width: 255px;
             height: 50px;
-            border: 2px solid black;
-            background-color: red;
-            font-family: 'Brush Script MT', 'Brush Script Std', cursive;
-            color: white;
+
             font-weight: 400;
-            font-size: 40px;
+            font-size: 30px;
         }
 
         #img {

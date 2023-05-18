@@ -1,6 +1,6 @@
 # Memories
 
-Memories is a private members club that makes your dreams come true. We all have a bucket list of things we would like to do in our life time. Most people never get to carry out there dreams whether its going around the world to visit different places, they would never throught they would get to realizee, whether its skiing in the Alps, going to a really big sporting event such as the World Cup, climbing mountain Everest or even swimming with the dolphin. This is where we come in and provide your dreams at a fraction of the cost as an individual wouldn't able to afford to book there dreams adventure. This is done by the way of buying power of the collective in bulk at a cheaper price to our members. By viewing our live site [here] (https://firefox35.github.io/memories/)
+Memories is a private members club that makes your dreams come true. We all have a bucket list of things we would like to do in our life time. Most people never get to carry out there dreams whether its going around the world to visit different places, they would never throught they would get to realizee, whether its skiing in the Alps, going to a really big sporting event such as the World Cup, climbing mountain Everest or even swimming with the dolphin. This is where we come in and provide your dreams at a fraction of the cost as an individual wouldn't able to afford to book there dreams adventure. This is done by the way of buying power of the collective in bulk at a cheaper price to our members. By viewing our live site (https://firefox35.github.io/memories/)
 
 ![Mockups](assets/images/memories-mockups.png)
 
@@ -35,7 +35,7 @@ Memories is a private members club that makes your dreams come true. We all have
 
 * Information
 
-![About Page] (assets/images/about-page.png)
+![About Page](assets/images/about-page.png)
 
 ## Contact Page
 
@@ -48,6 +48,8 @@ Memories is a private members club that makes your dreams come true. We all have
     * Message (required, type=text)
 
 ![Contact Page](assets/images/contact-form.png)
+
+## Response Page
 
 ## Design
 
@@ -80,8 +82,8 @@ Memories is a private members club that makes your dreams come true. We all have
   
 * Uizard.io
   * This application was used to create mockups of the website.
-  * <https://app.uizard.io/> 
-  * <https://app.uizard.io/prototypes/eJQmj99X0xUXGmmjxlxK>
+  * https://app.uizard.io/ 
+  * https://app.uizard.io/prototypes/eJQmj99X0xUXGmmjxlxK
   
 * Webssite Mockup Generator
   * The application was used to create image of the website into a desktop, laptop, tablet and mobile devices.
@@ -91,3 +93,24 @@ Memories is a private members club that makes your dreams come true. We all have
   * It was used to resize some of the images of the website
   * https://www.resizepixel.com/
   
+* Suppressed Images
+  * Had to an application to suppress an image to large in size to install. 
+  * https://www.img2go.com/
+  
+
+
+
+  ## Testing
+
+  ## Deployment
+
+* Version Control
+  * The website was created using CodeAnyWhere editor and the code was pushed to a repository in GitHub called Memories.
+
+  * I used the following GitHub commands to push the code to the repository, everytime a chance is made to the code. This is what they called version control. Its basically a backup version of your code if anything goes wrong.
+    
+  * git add <file> - This command is basically saving your code 
+  * git commit -m "Commit Message" 
+  * git push
+
+* Deployment of Live Version from GitHub 

@@ -5,8 +5,6 @@
     box-sizing: 0;
 }
 
-
-
 main {
     background-color: rgb(245, 255, 240);
     min-height: 600px;
@@ -19,7 +17,6 @@ footer {
     padding-top: 20px;
     padding-bottom: 21px;
 }
-
 
 h1,
 h2,
@@ -94,149 +91,89 @@ header {
 
 /* Home pages body*/
 
-#right {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    padding-left: 30px;
-}
-
-#right h2 {
-    text-align: right;
-}
-
-#right img {
-    width: 200px;
-    height: 200px;
-}
-
-#right aside {
-    padding-left: 185px;
-    padding-right: 20px;
-    padding-top: 25px;
-    padding-bottom: 0px;
-    text-align: justify;
-}
-
-#right aside h2 {
-    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
-    font-size: 35px;
-    padding-top: 10px;
-}
-
-#right aside p {
-    padding-top: 20px;
-}
-
-#right2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    padding-left: 30px;
-}
-
-#right2 h2 {
-    text-align: right;
-}
-
-#right2 img {
-    width: 200px;
-    height: 200px;
-}
-
-#right2 aside {
-    padding-left: 185px;
-    padding-right: 20px;
-    padding-top: 25px;
-    padding-bottom: 0px;
-    text-align: justify;
-}
-
-#right2 aside h2 {
-    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
-    font-size: 35px;
-    padding-top: 10px;
-}
-
-#right2 aside p {
-    padding-top: 20px;
-}
-
-#left {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    padding-right: 30px;
-}
-
-#left h2 {
-    text-align: left;
-}
-
-#left img {
-    width: 200px;
-    height: 200px;
-}
-
-#left aside {
-    padding-right: 185px;
-    padding-left: 20px;
-    padding-top: 25px;
-    text-align: justify;
-}
-
-#left aside h2 {
-    padding-top: 10px;
-    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
-    font-size: 35px;
-}
-
-#left aside p {
-    padding-top: 20px;
-}
-
-#left2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    padding-right: 30px;
-}
-
-#left2 h2 {
-    text-align: left;
-}
-
-#left2 img {
-    width: 200px;
-    height: 200px;
-}
-
-#left2 aside {
-    padding-right: 185px;
-    padding-left: 20px;
-    padding-top: 25px;
-    text-align: justify;
-}
-
-#left2 aside h2 {
-    padding-top: 10px;
-    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
-    font-size: 35px;
-}
-
-#left2 aside p {
-    padding-top: 20px;
-}
-
 #first {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     padding-bottom: 40px;
 }
 
 #first img {
     border: 5px solid black;
+    max-width: 30%;
+    width: auto\9;
+    height: auto;
 }
+
+
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-left: 30px;
+}
+
+.right h2 {
+    text-align: right;
+}
+
+.right img {
+    width: 18%;
+    height: auto;
+}
+
+.right aside {
+    padding-left: 185px;
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    text-align: justify;
+}
+
+.right aside h2 {
+    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+    font-size: 35px;
+    padding-top: 10px;
+}
+
+.right aside p {
+    padding-top: 20px;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-right: 30px;
+}
+
+.left h2 {
+    text-align: left;
+}
+
+.left img {
+    width: 18%;
+    height: auto;
+}
+
+.left aside {
+    padding-right: 185px;
+    padding-left: 20px;
+    padding-top: 25px;
+    text-align: justify;
+}
+
+.left aside h2 {
+    padding-top: 10px;
+    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+    font-size: 35px;
+}
+
+.left aside p {
+    padding-top: 20px;
+}
+
+
 
 .mission {
     padding-left: 150px;
@@ -245,7 +182,7 @@ header {
     padding-top: 50px;
 }
 
-.mission #left {
+.mission .left {
     padding-right: 30px;
 }
 
@@ -265,8 +202,8 @@ header {
 
 
 #space #first img {
-    width: 380px;
-    height: 400px;
+    width: 28%;
+    height: auto 0;
 }
 
 #space h2 {
@@ -289,211 +226,36 @@ header {
     font-family: 'Brush Script MT', 'Brush Script Std', cursive;
 }
 
-#info {
+.info {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-left: 90px;
     padding-right: 90px;
     padding-top: 70px;
+    padding-bottom: 30px;
     text-align: justify;
 }
 
-#info h4 {
+.info h4 {
     font-size: 30px;
     font-family: 'Brush Script MT', 'Brush Script Std', cursive;
 }
 
-#info img {
+.info img {
     width: 200px;
     height: 200px;
     border: 5px solid black;
 }
 
-#info2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-left: 90px;
-    padding-right: 90px;
-    padding-top: 70px;
-    text-align: justify;
-}
-
-#info2 h4 {
-    font-size: 30px;
-    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
-}
-
-#info2 img {
-    width: 200px;
-    height: 200px;
-    border: 5px solid black;
-}
-
-#info3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-left: 90px;
-    padding-right: 90px;
-    padding-top: 70px;
-    text-align: justify;
-}
-
-#info3 h4 {
-    font-size: 30px;
-    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
-}
-
-#info3 img {
-    width: 200px;
-    height: 200px;
-    border: 5px solid black;
-}
-
-
-#info4 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-left: 90px;
-    padding-right: 90px;
-    padding-top: 70px;
-    text-align: justify;
-}
-
-#info4 h4 {
-    font-size: 30px;
-    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
-}
-
-#info4 img {
-    width: 200px;
-    height: 200px;
-    border: 5px solid black;
-}
-
-#info-1 h4 {
+.info-1 h4 {
     padding-left: 15px;
 }
 
-#info-1 p {
+.info-1 p {
     width: 420px;
     padding-left: 15px;
     padding-right: 15px;
-}
-
-#info-2 h4 {
-    padding-left: 15px;
-}
-
-#info-2 p {
-    width: 420px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-#info-3 h4 {
-    padding-left: 15px;
-}
-
-#info-3 p {
-    width: 420px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-#info-4 h4 {
-    padding-left: 15px;
-}
-
-#info-4 p {
-    width: 420px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-#info-5 h4 {
-    padding-left: 15px;
-}
-
-#info-5 p {
-    width: 420px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-#info-6 h4 {
-    padding-left: 15px;
-}
-
-#info-6 p {
-    width: 420px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-#info-7 h4 {
-    padding-left: 15px;
-}
-
-#info-7 p {
-    width: 420px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-#info-8 h4 {
-    padding-left: 15px;
-}
-
-#info-8 p {
-    width: 420px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-#info-9 h4 {
-    padding-left: 15px;
-}
-
-#info-9 p {
-    width: 420px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-#info-10 h4 {
-    padding-left: 15px;
-}
-
-#info-10 p {
-    width: 420px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-#info5 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 55px;
-    padding-left: 90px;
-    padding-right: 90px;
-    padding-bottom: 72px;
-    text-align: justify;
-}
-
-#info5 h4 {
-    font-size: 30px;
-    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
-}
-
-#info5 img {
-    width: 200px;
-    height: 200px;
-    border: 5px solid black;
 }
 
 /*Contact Page Main Body*/
@@ -502,7 +264,6 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-content: space-around;
     text-align: center;
     padding-left: 100px;
     padding-right: 100px;
@@ -517,8 +278,8 @@ header {
 
 #top img {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 20%;
+    height: auto;
 }
 
 #form {
@@ -552,8 +313,8 @@ header {
 }
 
 #form textarea {
-    width: 580px;
-    height: 250px;
+    width: 140%;
+    height: 200px;
     border: 2px solid black;
 }
 
@@ -564,7 +325,7 @@ header {
 .box {
     display: flex;
     justify-items: center;
-    width: 450px;
+    width: 108%;
     height: 40px;
     border: 2px solid black;
     padding-left: 10px;
@@ -575,8 +336,8 @@ header {
     display: inline-block;
     text-align: center;
     vertical-align: center;
-    width: 585px;
-    height: 50px;
+    width: 141%;
+    height: 12%;
     border: 2px solid black;
     background-color: red;
     font-family: 'Brush Script MT', 'Brush Script Std', cursive;
@@ -613,7 +374,7 @@ header {
     text-decoration: none;
 }
 
-#nothing a {
+#links a {
     text-decoration: none;
     padding-top: 20px;
 }
@@ -627,144 +388,67 @@ header {
 @media screen and (max-width:1200px) {
     /* Home pages body*/
 
-    #right {
-        display: flex;
-        flex-direction: row;
-        justify-content: right;
+    .right {
         padding-left: 10px;
     }
 
-    #right h2 {
+    .right h2 {
         text-align: right;
     }
 
-    #right img {
+    .right img {
         width: 200px;
         height: 200px;
     }
 
-    #right aside {
+    .right aside {
         padding-left: 5px;
         padding-right: 20px;
         padding-top: 25px;
         padding-bottom: 0px;
-        text-align: justify;
     }
 
-    #right aside h2 {
+    .right aside h2 {
         font-family: 'Brush Script MT', 'Brush Script Std', cursive;
         font-size: 35px;
         padding-top: 10px;
     }
 
-    #right aside p {
+    .right aside p {
         padding-top: 20px;
     }
 
-    #right2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: right;
-        padding-left: 30px;
-    }
-
-    #right2 h2 {
-        text-align: right;
-    }
-
-    #right2 img {
-        width: 200px;
-        height: 200px;
-    }
-
-    #right2 aside {
-        padding-left: 5px;
-        padding-right: 20px;
-        padding-top: 25px;
-        padding-bottom: 0px;
-        text-align: justify;
-    }
-
-    #right2 aside h2 {
-        font-family: 'Brush Script MT', 'Brush Script Std', cursive;
-        font-size: 35px;
-        padding-top: 10px;
-    }
-
-    #right2 aside p {
-        padding-top: 20px;
-    }
-
-    #left {
+    .left {
         display: flex;
         flex-direction: row;
         justify-content: left;
         padding-right: 30px;
     }
 
-    #left h2 {
+    .left h2 {
         text-align: left;
     }
 
-    #left img {
+    .left img {
         width: 200px;
         height: 200px;
     }
 
-    #left aside {
+    .left aside {
         padding-right: 5px;
         padding-left: 20px;
         padding-top: 25px;
-        text-align: justify;
+
     }
 
-    #left aside h2 {
+    .left aside h2 {
         padding-top: 10px;
         font-family: 'Brush Script MT', 'Brush Script Std', cursive;
         font-size: 35px;
     }
 
-    #left aside p {
+    .left aside p {
         padding-top: 20px;
-    }
-
-    #left2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: left;
-        padding-right: 30px;
-    }
-
-    #left2 h2 {
-        text-align: left;
-    }
-
-    #left2 img {
-        width: 200px;
-        height: 200px;
-    }
-
-    #left2 aside {
-        padding-right: 5px;
-        padding-left: 20px;
-        padding-top: 25px;
-        text-align: justify;
-    }
-
-    #left2 aside h2 {
-        padding-top: 10px;
-
-        font-size: 35px;
-    }
-
-    #left2 aside p {
-        padding-top: 20px;
-    }
-
-    #first {
-        display: flex;
-        justify-content: center;
-        padding-bottom: 40px;
     }
 
     #first img {
@@ -786,16 +470,11 @@ header {
         border-radius: 50%;
     }
 
-    #space {
-        padding-top: 30px;
-    }
-
     #space h1 {
         font-size: 45px;
         padding-top: 15px;
         padding-bottom: 40px;
     }
-
 
     #space #first img {
         width: 380px;
@@ -803,7 +482,6 @@ header {
     }
 
     #space h2 {
-        font-family: 'Brush Script MT', 'Brush Script Std', cursive;
         font-size: 40px;
         padding-top: 5px;
         padding-bottom: 50px;
@@ -813,22 +491,317 @@ header {
         padding-top: 25px;
         padding-bottom: 15px;
     }
+
+
+    /*Header*/
+    header {
+        padding-bottom: 40px;
+
+    }
+
+    #logo {
+        font-size: 150%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    #logo li {
+        text-align: left;
+        padding-top: 5px;
+        padding-left: 40px;
+    }
+
+    #pages {
+        font-size: 90%;
+
+    }
+
+    #pages li {
+        margin-right: 40px;
+
+    }
+
+    #media {
+        font-size: 40%;
+        letter-spacing: 1px;
+        padding-left: 10%;
+    }
+
+    #media li {
+        width: 2px;
+        margin-left: 25px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+    }
+
+    /*Home Page*/
+
+
+    #first {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+
+    #first img {
+        width: 20%;
+        height: 20px;
+
+    }
+
+    #space h1 {
+        font-size: 30px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+
+    #space h2 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+
+    #space h3 {
+        font-size: 13px;
+
+    }
+
+
+
+    .mission .left p {
+        text-align: left;
+        font-size: 13px;
+        padding-right: 8px;
+        padding-bottom: 20px;
+        padding-top: 1px;
+    }
+
+    .mission .left h4 {
+        font-size: 15px;
+        padding-bottom: 10px;
+        padding-top: 1px;
+    }
+
+    .mission .left {
+        float: left;
+        padding-right: 5px;
+        padding-top: 20px;
+    }
+
+    .mission .left img {
+        width: 15%;
+        height: 50px;
+    }
+
+    .mission .right h4 {
+        font-size: 15px;
+        text-align: right;
+    }
+
+    .mission .right p {
+        font-size: 13px;
+        text-align: right;
+        padding-right: 5px;
+        padding-bottom: 1px;
+        padding-top: 1px;
+    }
+
+    .mission .right {
+        float: right;
+    }
+
+    .mission .right img {
+        width: 15%;
+        height: 50px;
+    }
+
+    .mission .right h4 {
+        text-align: left;
+    }
+
+
+
+    /*Footer*/
+
+    #links {
+        padding-bottom: 10px;
+        font-size: 10px;
+    }
+
+    /*About Page*/
+    #info-body {
+        font-size: 15px;
+    }
+
+    .info {
+        padding-top: 10px;
+        padding-left: 13px;
+        padding-right: 10px;
+    }
+
+    .info h4 {
+        font-size: 20px;
+    }
+
+    .info img {
+        width: 80%;
+        height: 50%;
+    }
+
+    .info-1 p {
+        width: 270px;
+        font-size: 10px;
+        text-align: justify;
+        padding-bottom: 10px;
+        padding-left: 15px;
+    }
+
+    /*Contact Page*/
+    #top {
+        padding-left: 50px;
+        padding-right: 80px;
+        padding-top: 30px;
+        padding-bottom: 25px;
+    }
+
+    #top h1 {
+        padding-top: 50px;
+        font-size: 30px;
+    }
+
+    #top img {
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+    }
+
+    #form {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 30px;
+        font-size: 20px;
+
+    }
+
+    #form-header h1 {
+        font-size: 20px;
+    }
+
+    #form name email {
+        padding-right: 100px;
+    }
+
+    #form name surname email {
+        width: 200px;
+        height: 30px;
+
+    }
+
+    #form textarea {
+        width: 250px;
+        height: 250px;
+
+    }
+
+    #name #email #surname #message {
+        font-size: medium;
+    }
+
+    .box {
+        display: flex;
+        justify-items: center;
+        width: 120px;
+        height: 40px;
+        border: 2px solid black;
+        padding-left: 10px;
+        padding-right: 120px;
+    }
+
+    #button {
+        display: inline-block;
+        text-align: center;
+        vertical-align: center;
+        width: 255px;
+        height: 50px;
+        font-weight: 400;
+        font-size: 30px;
+    }
+
+    #img {
+        display: flex;
+        align-content: space-around;
+        justify-content: space-around;
+        border-color: black;
+        border-spacing: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /*Response & Unavailable Pages */
+
+    #main-body {
+        padding-top: 100px;
+        font-size: 13px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #query {
+        padding-top: 100px;
+        font-size: 13px;
+        padding-left: 50px;
+        padding-right: 50px;
+
+    }
+
 }
 
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width:950px) {
-    .body {
-        max-width: 950px;
-        max-height: 950px;
+
+    /*Header*/
+    header {
+        padding-bottom: 40px;
     }
 
-    #media {
-        float: left;
+    #logo {
+        font-size: 150%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    #logo li {
+        text-align: left;
+        padding-top: 5px;
+        padding-left: 40px;
     }
 
     #pages {
-
+        font-size: 90%;
         float: right;
+    }
+
+    #pages li {
+        margin-right: 40px;
+
+    }
+
+    #media {
+        font-size: 40%;
+        letter-spacing: 1px;
+        padding-left: 10%;
+        float: left;
+    }
+
+    #media li {
+        width: 2px;
+        margin-left: 25px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+    }
+
+    .body {
+        max-width: 950px;
+        max-height: 950px;
     }
 
     #space #first img {
@@ -840,484 +813,287 @@ header {
         height: 300px;
     }
 
+    /*Footer*/
+
     footer {
         text-align: center;
+    }
+
+    * {
+        border: 1px solid red;
+    }
+
+}
+
+/* For small screens sizes from 800px wide and down */
+@media screen and (max-width:800px) {
+
+    /*Header*/
+    header {
+        padding-bottom: 40px;
 
     }
 
-    /* For small screens sizes from 800px wide and down */
-    @media screen and (max-width:950px) {
-
-        /*Header*/
-        header {
-            padding-bottom: 40px;
-
-        }
-
-        #logo {
-            font-size: 150%;
-            padding-bottom: 10px;
-            padding-top: 10px;
-        }
-
-        #logo li {
-            text-align: left;
-            padding-top: 5px;
-            padding-left: 40px;
-        }
-
-        #pages {
-            font-size: 90%;
-            letter-spacing: 2px;
-        }
-
-        #pages li {
-            margin-right: 40px;
-
-        }
-
-        #media {
-            font-size: 40%;
-            letter-spacing: 1px;
-            padding-left: 5%;
-        }
-
-        #media li {
-            width: 2px;
-            margin-left: 25px;
-            padding-right: 30px;
-            padding-bottom: 10px;
-        }
-
-        /*Home Page*/
-
-
-        #first {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding-bottom: 20px;
-            padding-left: 1px;
-            padding-right: 1px;
-        }
-
-
-        #first img {
-            height: 20px;
-
-        }
-
-        #space h1 {
-            font-size: 30px;
-            padding-bottom: 10px;
-        }
-
-        #space h2 {
-            font-size: 25px;
-        }
-
-        #space h3 {
-            font-size: 15px;
-            padding-bottom: 10px;
-        }
-
-        .mission {
-            height: 915px;
-            padding-left: 1px;
-            padding-right: 1px;
-            padding-bottom: 80px;
-            padding-top: 1px;
-        }
-
-        .mission #left p {
-            text-align: left;
-            font-size: 13px;
-            padding-right: 8px;
-            padding-bottom: 20px;
-            padding-top: 1px;
-
-
-        }
-
-        .mission #left h4 {
-            font-size: 15px;
-            padding-bottom: 10px;
-            padding-top: 1px;
-        }
-
-
-
-        .mission #left {
-            float: left;
-            padding-right: 5px;
-            padding-top: 20px;
-
-        }
-
-        .mission #left img {
-            width: 50px;
-            height: 50px;
-
-        }
-
-
-        .mission #right h4 {
-            font-size: 15px;
-            text-align: right;
-        }
-
-        .mission #right p {
-            font-size: 13px;
-            text-align: right;
-            padding-right: 5px;
-            padding-bottom: 20px;
-            padding-top: 1px;
-        }
-
-        .mission #right {
-            float: right;
-        }
-
-        .mission #right img {
-            width: 50px;
-            height: 50px;
-        }
-
-        .mission #right h4 {
-            text-align: left;
-        }
-
-        .mission #left2 h4 {
-            font-size: 15px;
-
-        }
-
-        .mission #left2 p {
-            font-size: 13px;
-            text-align: left;
-            padding-left: 5px;
-            padding-bottom: 20px;
-            padding-top: 1px;
-        }
-
-        .mission #left2 {
-            float: left;
-            padding-right: 10px;
-            padding-top: 20px;
-
-        }
-
-        .mission #left2 img {
-            width: 50px;
-            height: 50px;
-        }
-
-
-
-        .mission #right2 h4 {
-            font-size: 15px;
-        }
-
-        .mission #right2 p {
-            font-size: 13px;
-            text-align: right;
-            padding-right: 5px;
-            padding-bottom: 20px;
-            padding-top: 1px;
-        }
-
-        .mission #right2 {
-            float: right;
-            padding-top: 20px;
-
-        }
-
-        .mission #right2 img {
-            width: 50px;
-            height: 50px;
-        }
-
-        .mission #right2 h4,
-        p {
-            text-align: left;
-        }
-
-        #space h2 {
-            padding-bottom: 20px;
-        }
-
-      
-
-        /*Footer*/
-        footer {
-            text-align: center;
-        }
-
-        /*About Page*/
-        #info-body {
-            padding-top: 30px;
-            font-size: 20px;
-
-        }
-
-        #info {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            text-align: justify;
-            padding-top: 10px;
-            padding-left: 5px;
-            padding-right: 5px;
-        }
-
-        #info h4 {
-            font-size: 20px;
-        }
-
-        #info img {
-            width: 100px;
-            height: 100px;
-        }
-
-        #info2 {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            text-align: justify;
-            padding-top: 10px;
-            padding-left: 5px;
-            padding-right: 5px;
-        }
-
-        #info2 h4 {
-            font-size: 20px;
-        }
-
-        #info2 img {
-            width: 100px;
-            height: 100px;
-        }
-
-        #info3 {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            text-align: justify;
-            padding-top: 10px;
-            padding-left: 5px;
-            padding-right: 5px;
-        }
-
-        #info3 h4 {
-            font-size: 20px;
-        }
-
-        #info3 img {
-            width: 100px;
-            height: 100px;
-        }
-
-        #info4 {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            text-align: justify;
-            padding-top: 10px;
-            padding-left: 5px;
-            padding-right: 5px;
-        }
-
-        #info4 h4 {
-            font-size: 20px;
-        }
-
-        #info4 img {
-            width: 100px;
-            height: 100px;
-
-        }
-
-        #info-1 p {
-            width: 270px;
-            font-size: 10px;
-            text-align: justify;
-        }
-
-        #info-2 p {
-            width: 270px;
-            font-size: 10px;
-            text-align: justify;
-        }
-
-        #info-3 p {
-            width: 270px;
-            font-size: 10px;
-            text-align: justify;
-        }
-
-        #info-4 p {
-            width: 270px;
-            font-size: 10px;
-            text-align: justify;
-        }
-
-        #info-5 p {
-            width: 270px;
-            font-size: 10px;
-            text-align: justify;
-        }
-
-        #info-6 p {
-            width: 270px;
-            font-size: 10px;
-            text-align: justify;
-        }
-
-        #info-7 p {
-            width: 270px;
-            font-size: 10px;
-            text-align: justify;
-        }
-
-        #info-8 p {
-            width: 270px;
-            font-size: 10px;
-            text-align: justify;
-        }
-
-        #info-9 p {
-            width: 270px;
-            font-size: 10px;
-            text-align: justify;
-        }
-
-        #info-10 p {
-            width: 270px;
-            font-size: 10px;
-            text-align: justify;
-        }
-
-        #info5 {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            text-align: justify;
-            padding-top: 10px;
-            padding-left: 5px;
-            padding-right: 5px;
-            padding-bottom: 10px;
-        }
-
-        #info5 h4 {
-            font-size: 20px;
-        }
-
-        #info5 img {
-            width: 100px;
-            height: 100px;
-        }
-
-        /*Contact Page*/
-        #top {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-content: space-around;
-            text-align: center;
-            padding-left: 50px;
-            padding-right: 80px;
-            padding-top: 30px;
-            padding-bottom: 25px;
-        }
-
-        #top h1 {
-            padding-top: 50px;
-            font-size: 30px;
-        }
-
-        #top img {
-            border-radius: 50%;
-            width: 80px;
-            height: 80px;
-        }
-
-        #form {
-            padding-left: 50px;
-            padding-right: 50px;
-            padding-bottom: 30px;
-            font-size: 20px;
-
-        }
-
-        #form-header h1 {
-            font-size: 20px;
-        }
-
-        #form name email {
-            padding-right: 100px;
-        }
-
-        #form name surname email {
-            width: 200px;
-            height: 30px;
-
-        }
-
-        #form textarea {
-            width: 250px;
-            height: 250px;
-
-        }
-
-        #name #email #surname #message {
-            font-size: medium;
-        }
-
-        .box {
-            display: flex;
-            justify-items: center;
-            width: 120px;
-            height: 40px;
-            border: 2px solid black;
-            padding-left: 10px;
-            padding-right: 120px;
-        }
-
-        #button {
-            display: inline-block;
-            text-align: center;
-            vertical-align: center;
-            width: 255px;
-            height: 50px;
-
-            font-weight: 400;
-            font-size: 30px;
-        }
-
-        #img {
-            display: flex;
-            align-content: space-around;
-            justify-content: space-around;
-            border-color: black;
-            border-spacing: 10px;
-            padding-left: 10px;
-            padding-right: 10px;
-        }
-
-        /*Response & Unavailable Pages */
-
-        #main-body {
-            padding-top: 100px;
-            font-size: 13px;
-            padding-left: 50px;
-            padding-right: 50px;
-        }
-
-        #query {
-            padding-top: 100px;
-            font-size: 13px;
-            padding-left: 50px;
-            padding-right: 50px;
-
-        }
+    #logo {
+        font-size: 150%;
+        padding-bottom: 10px;
+        padding-top: 10px;
     }
+
+    #logo li {
+        text-align: left;
+        padding-top: 5px;
+        padding-left: 40px;
+    }
+
+    #pages {
+        font-size: 90%;
+
+    }
+
+    #pages li {
+        margin-right: 40px;
+
+    }
+
+    #media {
+        font-size: 40%;
+        letter-spacing: 1px;
+        padding-left: 10%;
+    }
+
+    #media li {
+        width: 2px;
+        margin-left: 25px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+    }
+
+    /*Home Page*/
+
+
+    #first {
+        display: flex;
+        flex-direction: row;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+
+    #first img {
+        width: 20%;
+        height: 20px;
+
+    }
+
+    #space h1 {
+        font-size: 30px;
+        padding-bottom: 10px;
+        padding-top: 2px;
+    }
+
+    #space h2 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+
+    #space h3 {
+        font-size: 13px;
+        padding-bottom: 10px;
+    }
+
+    .mission {
+
+
+        padding-left: 1px;
+        padding-right: 1px;
+        padding-bottom: 180px;
+        padding-top: 1px;
+    }
+
+    .mission .left p {
+        text-align: left;
+        font-size: 13px;
+        padding-right: 8px;
+        padding-bottom: 20px;
+        padding-top: 1px;
+    }
+
+    .mission .left h4 {
+        font-size: 15px;
+        padding-bottom: 10px;
+        padding-top: 1px;
+    }
+
+    .mission .left {
+        float: left;
+        padding-right: 5px;
+        padding-top: 20px;
+    }
+
+    .mission .left img {
+        width: 15%;
+        height: 50px;
+    }
+
+    .mission .right h4 {
+        font-size: 15px;
+        text-align: right;
+    }
+
+    .mission .right p {
+        font-size: 13px;
+        text-align: right;
+        padding-right: 5px;
+        padding-bottom: 1px;
+        padding-top: 1px;
+    }
+
+    .mission .right {
+        float: right;
+    }
+
+    .mission .right img {
+        width: 15%;
+        height: 50px;
+    }
+
+    .mission .right h4 {
+        text-align: left;
+    }
+
+
+
+    /*Footer*/
+
+    #links {
+        padding-bottom: 10px;
+        font-size: 10px;
+    }
+
+    /*About Page*/
+    #info-body {
+        font-size: 15px;
+    }
+
+    .info {
+        padding-top: 10px;
+        padding-left: 13px;
+        padding-right: 10px;
+    }
+
+    .info h4 {
+        font-size: 20px;
+    }
+
+    .info img {
+        width: 80%;
+        height: 50%;
+    }
+
+    .info-1 p {
+        width: 270px;
+        font-size: 10px;
+        text-align: justify;
+        padding-bottom: 10px;
+        padding-left: 15px;
+    }
+
+    /*Contact Page*/
+    #top {
+        padding-left: 50px;
+        padding-right: 80px;
+        padding-top: 30px;
+        padding-bottom: 25px;
+    }
+
+    #top h1 {
+        padding-top: 50px;
+        font-size: 30px;
+    }
+
+    #top img {
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+    }
+
+    #form {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 30px;
+        font-size: 20px;
+
+    }
+
+    #form-header h1 {
+        font-size: 20px;
+    }
+
+    #form name email {
+        padding-right: 100px;
+    }
+
+    #form name surname email {
+        width: 200px;
+        height: 30px;
+
+    }
+
+    #form textarea {
+        width: 250px;
+        height: 250px;
+
+    }
+
+    #name #email #surname #message {
+        font-size: medium;
+    }
+
+    .box {
+        display: flex;
+        justify-items: center;
+        width: 120px;
+        height: 40px;
+        border: 2px solid black;
+        padding-left: 10px;
+        padding-right: 120px;
+    }
+
+    #button {
+        display: inline-block;
+        text-align: center;
+        vertical-align: center;
+        width: 255px;
+        height: 50px;
+        font-weight: 400;
+        font-size: 30px;
+    }
+
+    #img {
+        display: flex;
+        align-content: space-around;
+        justify-content: space-around;
+        border-color: black;
+        border-spacing: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /*Response & Unavailable Pages */
+
+    #main-body {
+        padding-top: 100px;
+        font-size: 13px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #query {
+        padding-top: 100px;
+        font-size: 13px;
+        padding-left: 50px;
+        padding-right: 50px;
+
+    }
+}

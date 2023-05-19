@@ -35,7 +35,7 @@ Memories is a private members club that makes your dreams come true. We all have
 
 * Information
 
-![About Page](assets/images/about-page.png)
+![About Page](assets/images/about-page.jpg)
 
 ## Contact Page
 

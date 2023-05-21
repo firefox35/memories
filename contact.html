@@ -61,12 +61,12 @@
         <h1>Contact Form</h1>
         <img src="assets/images/family-happiness.jpg" alt="Family Happiness">
     </div>
-    <div id="form-header">
+    <div class="form-header">
         <h1>What are you waiting for, get in touch now to realise your dreams.</h1>
     </div>
     <form action="response.html">
-        <div id="form-body">
-            <div id="form">
+        <div class="form-body">
+            <div class="form">
                 <div id="name">
                     <label for="fname">Your first name:</label>
                     <input type="text" class="box" id="fname" required>
@@ -80,33 +80,29 @@
                     <input type="text" class="box" id="e-address" required>
                 </div>
                 <div id="message">
-                    <label for="text">Please describe your requirements below:</label><br>
+                    <label for="text">Please describe your requirements below:</label>
                     <textarea id="text" required></textarea>
                 </div>
-                <input type="submit" value="Click Here - Let's Talk" id="button">
+                <div>
+                    <input type="submit" value="Click Here - Let's Talk" id="button">
+                </div>
             </div>
         </div>
     </form>
 
     <!--Footer links to different pages that open to new tabs when clicked.-->
-    <footer id="links">
-        <ul>
-            <li>
-                <a href="unavailable.html">Memories</a>
-            </li>
-            <li>
-                <a href="unavailable.html">Careers</a>
-            </li>
-            <li>
-                <a href="unavailable.html">Terms of Use</a>
-            </li>
-            <li>
-                <a href="unavailable.html">Privacy Policy</a>
-            </li>
-            <li>
-                <a href="unavailable.html">Cookies</a>
-            </li>
-        </ul>
+    <footer class="footer">
+        <div class="list">
+            <div class="footer-list">
+                <h4>Memories</h4>
+                <ul>
+                    <li><a href="unavailable.html">Careers</a></li>
+                    <li><a href="unavailable.html">Terms of Use</a></li>
+                    <li><a href="unavailable.html">Privacy Policy</a></li>
+                    <li><a href="unavailable.html">Cookies</a></li>
+                </ul>
+            </div>
+        </div>
     </footer>
 </body>
 

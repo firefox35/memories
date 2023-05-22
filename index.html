@@ -15,45 +15,47 @@
     <header>
         <nav>
             <!--Logo of the Website-->
-            <ul id="logo">
-                <li>Memories</li>
-            </ul>
-            <!--Navigation links to each pages-->
-            <ul id="pages">
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-                <li>
-                    <a href="about.html">About</a>
-                </li>
-                <li>
-                    <a class="active" href="index.html">Home</a>
-                </li>
-            </ul>
-            <!--Media Links-->
-            <ul id="media">
-                <li>
-                    <a href="https://www.facebook.com">
-                        <img src="assets/images/facebook-round-color-2021-icon.png" alt="facebook" rel="noopener"
-                            aria-label="Visit our Facebook page (opens in a new tab)" height="20" width="20"></a>
-                </li>
-                <li>
-                    <a href="https://www.twitter.com">
-                        <img src="assets/images/twitter-color-icon.png" alt="twitter" rel="noopener"
-                            aria-label="Visit our Twitter page (opens in a new tab)" height="20" width="20"></a>
-                </li>
-                <li>
-                    <a href="https://www.YouTube.com">
-                        <img src="assets/images/youtube-round-line-color-icon.png" rel="noopener"
-                            aria-label="Visit our Youtube page (opens in a new tab)" alt="youtube" height="20"
-                            width="20"></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com">
-                        <img src="assets/images/ig-instagram-icon.png" alt="instagram" rel="noopener"
-                            aria-label="Visit our Instagram page (opens in a new tab)" height="20" width="20"></a>
-                </li>
-            </ul>
+            <div class="logo">Memories
+                <div id="dropdown">
+                    <label for="drop" class="toggle" id="main-toggle"><span class="nav-icon"></span></label>
+                    <input type="checkbox" id="drop">
+                    <ul class="menu">
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <input type="checkbox" id="drop-3">
+                    </ul>
+                </div>
+                <!--Navigation links to each pages-->
+
+                <!--Media Links-->
+                <div>
+                    <ul id="media">
+                        <li>
+                            <a href="https://www.facebook.com">
+                                <img src="assets/images/facebook-round-color-2021-icon.png" alt="facebook"
+                                    rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)" height="20"
+                                    width="20"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com">
+                                <img src="assets/images/twitter-color-icon.png" alt="twitter" rel="noopener"
+                                    aria-label="Visit our Twitter page (opens in a new tab)" height="20" width="20"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.YouTube.com">
+                                <img src="assets/images/youtube-round-line-color-icon.png" rel="noopener"
+                                    aria-label="Visit our Youtube page (opens in a new tab)" alt="youtube" height="20"
+                                    width="20"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com">
+                                <img src="assets/images/ig-instagram-icon.png" alt="instagram" rel="noopener"
+                                    aria-label="Visit our Instagram page (opens in a new tab)" height="20"
+                                    width="20"></a>
+                        </li>
+                    </ul>
+                </div>
         </nav>
     </header>
     <main>
@@ -124,15 +126,12 @@
 
     <!--Footer links to different pages that open to new tabs when clicked.-->
     <footer class="footer">
-
         <div class="list">
             <div class="footer-list">
                 <h4>Memories</h4>
                 <ul>
-                    <li><a href="unavailable.html">Careers</a></li>
-                    <li><a href="unavailable.html">Terms of Use</a></li>
-                    <li><a href="unavailable.html">Privacy Policy</a></li>
-                    <li><a href="unavailable.html">Cookies</a></li>
+                    <li><a href="location.html">Location</a></li>
+                    <li><a href="terms.html">Terms of Use</a></li>
                 </ul>
             </div>
         </div>

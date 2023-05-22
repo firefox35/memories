@@ -14,6 +14,7 @@ body {
 
 main {
     background-color: rgb(245, 255, 240);
+
 }
 
 .footer {
@@ -59,7 +60,177 @@ header {
     min-height: 30px;
 }
 
-#logo {
+.toggle,
+[id^=drop] {
+    display: none;
+}
+
+
+
+#dropdown {
+    display: block;
+    padding: 15px 5px;
+    float: right;
+    font-size: 20px;
+    line-height: 10px;
+    width: 40%;
+
+}
+
+#main-toggle {
+    cursor: pointer;
+    float: right;
+    padding: 20px 20px;
+    position: relative;
+    user-select: none;
+}
+
+.nav-icon {
+    background-color: aliceblue;
+    display: block;
+    height: 2px;
+    width: 15px;
+    position: relative;
+}
+
+.nav-icon:before,
+.nav-icon:after {
+    background-color: aliceblue;
+    content: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.nav-icon:before {
+    top: 5px;
+}
+
+.nav-icon:after {
+    top: -5px;
+}
+
+#dropdown:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#dropdown ul {
+    float: right;
+    padding: 60px;
+    margin: 0;
+    list-style: none;
+}
+
+#dropdown ul li {
+    margin: -3px;
+    float: left;
+    padding-left: 1px;
+    padding-right: 1px;
+    background-color: beige;
+
+
+
+}
+
+#dropdown a {
+    display: block;
+    padding: 0 15px 0 15px;
+    color: red;
+    font-size: 15px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+#dropdown ul ul {
+    display: none;
+    position: absolute;
+    top: 60px;
+}
+
+#dropdown ul ul li {
+    width: 60px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+#dropdown ul li:hover>ul {
+    display: inherit;
+}
+
+li>a::after {
+    content: "";
+}
+
+li>a:only-child:after {
+    content: "";
+}
+
+#dropdown ul {
+    margin: 0;
+    float: none;
+}
+
+
+
+.toggle+a,
+.menu {
+    display: none;
+}
+
+.toggle {
+    display: block;
+    background-color: red;
+    padding: 0 60px;
+    color: green;
+    font-size: 20px;
+    line-height: 60px;
+    text-decoration: none;
+    border: none;
+}
+
+.toggle:hover {
+    background-color: purple;
+}
+
+[id^=drop]:checked+ul {
+    display: block;
+}
+
+#dropdown ul li {
+    display: block;
+    width: 25%;
+    height: auto;
+
+}
+
+#dropdown ul li.toggle,
+#dropdown ul {
+    padding: 0 10px;
+}
+
+#dropdown ul ul {
+    float: none;
+    position: static;
+    color: white;
+}
+
+#dropdown ul ul li:hover>ul,
+#dropdown ul li:hover>ul {
+    display: none;
+}
+
+#dropdown ul ul li {
+    display: block;
+    width: 50%;
+}
+
+
+
+.logo {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
     color: red;
@@ -68,10 +239,18 @@ header {
     text-decoration: none;
 }
 
-#logo li {
+.logo li {
     text-align: left;
-    padding-top: 5px;
-    padding-left: 40px;
+    padding-top: 10px;
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.logo a {
+    float: right;
+    padding: 5px;
+    padding-right: 25px;
+    font-size: 15px;
 }
 
 #pages {
@@ -96,16 +275,17 @@ header {
 
 #media {
     font-size: 80%;
-    letter-spacing: 12px;
+    letter-spacing: 1px;
     padding-left: 40%;
+
 }
 
 #media li {
     list-style-type: none;
     display: inline-block;
-    width: 10px;
-    margin-left: 10px;
-    padding-right: 30px;
+    width: 1px;
+    margin-left: 1px;
+    padding-right: 10px;
     padding-bottom: 10px;
 
 }
@@ -396,6 +576,15 @@ header {
     text-decoration: none;
 }
 
+#main-term {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#main-term h2 {
+    color: black;
+}
+
 #query {
     text-align: center;
     padding-top: 150px;
@@ -405,17 +594,15 @@ header {
 }
 
 
-* {
-    border: 1px solid red;
-}
+
 
 
 /*Media Queries*/
 
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width:1200px) {
-    /* Home pages body*/
 
+    /* Home pages body*/
 
 
     .right {
@@ -525,13 +712,13 @@ header {
 
 
 
-    #logo {
+    .logo {
         font-size: 150%;
         padding-bottom: 10px;
         padding-top: 10px;
     }
 
-    #logo li {
+    .logo li {
         text-align: left;
         padding-top: 5px;
         padding-left: 40px;
@@ -539,6 +726,7 @@ header {
 
     #pages {
         font-size: 90%;
+        position: static;
 
     }
 
@@ -549,15 +737,18 @@ header {
 
     #media {
         font-size: 40%;
-        letter-spacing: 1px;
-        padding-left: 10%;
+        letter-spacing: -3px;
+        padding-left: 25px;
+
     }
 
     #media li {
         width: 2px;
-        margin-left: 25px;
-        padding-right: 30px;
+        margin-left: 1px;
+        padding-right: 3px;
+        padding-left: 60px;
         padding-bottom: 10px;
+
     }
 
 
@@ -720,7 +911,7 @@ header {
 @media screen and (max-width:950px) {
 
     main {
-        flex-grow: 1;
+        padding-bottom: 20px;
     }
 
     /*Header*/
@@ -728,13 +919,74 @@ header {
         padding-bottom: 40px;
     }
 
-    #logo {
+    #dropdown ul {
+        margin: 0;
+        float: none;
+    }
+
+
+
+    .toggle+a,
+    .menu {
+        display: none;
+    }
+
+    .toggle {
+        display: block;
+        background-color: rgb(112, 60, 60);
+        padding: 0 60px;
+        color: green;
+        font-size: 20px;
+        line-height: 60px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .toggle:hover {
+        background-color: red;
+    }
+
+    [id^=drop]:checked+ul {
+        display: block;
+    }
+
+    #dropdown ul li {
+        display: block;
+        width: 32%;
+    }
+
+    #dropdown ul li.toggle,
+    #dropdown ul {
+        padding: 0 40px;
+    }
+
+    #dropdown ul ul {
+        float: none;
+        position: static;
+        color: white;
+    }
+
+    #dropdown ul ul li:hover>ul,
+    #dropdown ul li:hover>ul {
+        display: none;
+    }
+
+    #dropdown ul ul li {
+        display: block;
+        width: 100%;
+    }
+
+    #dropdown ul ul ul {
+        position: static;
+    }
+
+    .logo {
         font-size: 150%;
         padding-bottom: 10px;
         padding-top: 10px;
     }
 
-    #logo li {
+    .logo li {
         text-align: left;
         padding-top: 5px;
         padding-left: 40px;
@@ -753,14 +1005,14 @@ header {
     #media {
         font-size: 40%;
         letter-spacing: 1px;
-        padding-left: 10%;
-        float: center;
+        padding-left: 10px;
+
     }
 
     #media li {
         width: 2px;
-        margin-left: 45px;
-        padding-right: 30px;
+        margin-left: 5px;
+        padding-right: 5px;
         padding-bottom: 10px;
     }
 
@@ -881,8 +1133,8 @@ header {
     }
 
     .info img {
-        width: 200px;
-        height: 200px;
+        width: 160px;
+        height: 160px;
         border: 5px solid black;
     }
 
@@ -891,9 +1143,10 @@ header {
     }
 
     .info-1 p {
-        width: 220px;
+        width: 100%;
         padding-left: 15px;
         padding-right: 15px;
+        font-size: 11px;
     }
 
     /*Contact Page*/
@@ -958,7 +1211,7 @@ header {
         display: flex;
         justify-items: center;
         width: 100%;
-        height: 20px;
+        height: 40px;
         border: 2px solid black;
         padding-left: 10px;
         padding-right: 120px;
@@ -988,6 +1241,8 @@ header {
 
     .footer {
         width: 100%;
+
+        padding-top: 10px;
         text-align: center;
     }
 
@@ -1001,8 +1256,7 @@ header {
 @media screen and (max-width:800px) {
 
     main {
-        min-height: 110vh;
-        flex-grow: 1;
+        padding-bottom: 20px;
     }
 
     /*Header*/
@@ -1011,152 +1265,82 @@ header {
 
     }
 
-    #logo {
-        font-size: 150%;
-        padding-bottom: 10px;
-        padding-top: 10px;
-    }
-
-    #logo li {
-        text-align: left;
-        padding-top: 5px;
-        padding-left: 40px;
-    }
-
-    #pages {
-        font-size: 90%;
-
-    }
-
-    #pages li {
-        margin-right: 40px;
-
-    }
-
-    #media {
-        font-size: 40%;
-        letter-spacing: 1px;
-        padding-left: 10%;
-    }
-
-    #media li {
-        width: 2px;
-        margin-left: 25px;
-        padding-right: 30px;
-        padding-bottom: 10px;
-    }
-
-    /*Home Page*/
-
-
-    #first {
-        display: flex;
-        flex-direction: row;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-
-
-    #first img {
-        width: 20%;
-        height: 20px;
-
-    }
-
-    #space h1 {
-        font-size: 30px;
-        padding-bottom: 10px;
-        padding-top: 2px;
-    }
-
-    #space h2 {
-        font-size: 25px;
-        padding-bottom: 5px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    #space h3 {
-        font-size: 13px;
-        padding-bottom: 10px;
-    }
-
-    .mission {
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 180px;
-        padding-top: 1px;
-    }
-
-    .mission .left p {
-        text-align: justify;
-        text-justify: auto;
-        font-size: 11px;
-        padding-right: 8px;
-        padding-bottom: 20px;
-        padding-top: 1px;
-    }
-
-    .mission .left h4 {
-        font-size: 15px;
-        padding-bottom: 10px;
-        padding-top: 1px;
-    }
-
-    .mission .left {
-        float: left;
-        padding-right: 5px;
-        padding-top: 20px;
-    }
-
-    .mission .left img {
-        width: 10%;
-        height: 45px;
-    }
-
-    .mission .right {
-        padding-top: 10px;
-    }
-
-    .mission .right h4 {
-        font-size: 15px;
-        text-align: right;
-    }
-
-    .mission .right p {
-
-        font-size: 11px;
-        text-align: justify;
-        text-justify: inherit;
-        padding-right: 5px;
-        padding-bottom: 1px;
-        padding-top: 1px;
-    }
-
-    .mission .right {
-        float: right;
-    }
-
-    .mission .right img {
-        width: 10%;
-        height: 45px;
-    }
-
-    .mission .right h4 {
-        text-align: left;
-    }
-
-    .mission .left h2 {
-        font-size: 18px;
-    }
-
-    .mission .right h2 {
-        font-size: 18px;
+    #dropdown ul {
+        margin: 0;
+        float: none;
     }
 
 
 
+    .toggle+a,
+    .menu {
+        display: none;
+    }
 
+    .toggle {
+        display: block;
+        background-color: rgb(112, 60, 60);
+        padding: 0 40px;
+        color: green;
+        font-size: 20px;
+        line-height: 60px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .toggle:hover {
+        background-color: red;
+    }
+
+    [id^=drop]:checked+ul {
+        display: block;
+    }
+
+    #dropdown ul li {
+        display: block;
+        width: 60%;
+        height: 35px;
+    }
+
+    #dropdown ul li.toggle,
+    #dropdown ul {
+        padding: 0 10px;
+    }
+
+    #dropdown ul ul {
+        float: none;
+        position: static;
+        color: white;
+    }
+
+    #dropdown ul ul li:hover>ul,
+    #dropdown ul li:hover>ul {
+        display: none;
+    }
+
+    #dropdown ul ul li {
+        display: block;
+        width: 32%;
+    }
+
+    #dropdown ul ul ul {
+        position: static;
+    }
+
+    .logo {
+        padding: 2px;
+
+    }
+
+    .logo li {
+        padding-left: 2px;
+        margin-right: 2px;
+
+    }
+
+    .logo a {
+        padding-right: 2px;
+    }
 
     /*About Page Main Body*/
 
@@ -1171,7 +1355,6 @@ header {
     .info {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
         padding-left: 30px;
         padding-right: 30px;
         padding-top: 20px;
@@ -1186,20 +1369,24 @@ header {
     }
 
     .info img {
-        width: 100px;
-        height: 100px;
+        width: 100%;
+        height: 200px;
+
         border: 5px solid black;
     }
 
     .info-1 h4 {
         padding-left: 15px;
+        padding-top: 10px;
     }
 
     .info-1 p {
-        width: 90%;
+        width: 100%;
         font-size: 11px;
         padding-left: 15px;
         padding-right: 15px;
+        padding-bottom: 10px;
+
     }
 
     /*Contact Page*/
@@ -1224,15 +1411,15 @@ header {
     .form {
         padding-left: 1px;
         padding-right: 1px;
-        padding-bottom: 30px;
+        padding-bottom: 50px;
         font-size: 15px;
         width: 100%;
 
     }
 
     .form-body {
-        padding-left: 18%;
-        padding-right: 18%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     .form-header h1 {
@@ -1289,7 +1476,7 @@ header {
         padding-right: 10px;
     }
 
-    /*Response & Unavailable Pages */
+    /*Response & Location Pages */
 
     #main-body {
         padding-top: 100px;
@@ -1309,11 +1496,16 @@ header {
     .footer {
         text-align: center;
         width: 100%;
+
     }
 
     .footer a {
-        font-size: 12px;
+        font-size: 10px;
         text-decoration: none;
-        float: center;
+
+    }
+
+    * {
+        border: 1px solid red;
     }
 }

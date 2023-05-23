@@ -14,15 +14,17 @@ body {
 
 main {
     background-color: rgb(245, 255, 240);
+    min-height: 130vh;
 
 }
 
 .footer {
+    position: absolute;
     background-color: rgb(245, 240, 220);
-    max-width: 100%;
+    width: 100%;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .footer #footer-list {
@@ -31,15 +33,27 @@ main {
 
 .footer a {
     text-decoration: none;
-    padding-top: 20px;
-}
-
-.container {
-    width: 100%;
+    padding-top: 15px;
+    display: inline-block;
 }
 
 .footer ul {
     list-style: none;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer ul li a:hover {
+    opacity: 0.9;
+}
+
+.container {
+    width: 100%;
 }
 
 
@@ -57,7 +71,7 @@ h1 {
 /*Header Section of Home, About and Contact Pages*/
 header {
     background-color: beige;
-    min-height: 30px;
+
 }
 
 .toggle,
@@ -65,16 +79,53 @@ header {
     display: none;
 }
 
-
-
 #dropdown {
     display: block;
-    padding: 15px 5px;
+    padding: 15px 15px;
     float: right;
     font-size: 20px;
     line-height: 10px;
-    width: 40%;
+    width: 38%;
 
+}
+
+#dropdown:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#dropdown ul {
+    float: right;
+    padding: 40px;
+    margin: 0;
+    list-style: none;
+    width: 80%;
+}
+
+#dropdown ul li {
+    margin: -3px;
+    float: left;
+    padding-left: 1px;
+    padding-right: 1px;
+    background-color: beige;
+    display: block;
+    width: 30%;
+    height: auto;
+}
+
+#dropdown ul li a {
+    display: block;
+    padding: 0 5px 0 5px;
+    color: red;
+    font-size: 15px;
+    line-height: 30px;
+    text-decoration: none;
+
+}
+
+#dropdown ul li:hover>ul {
+    display: inherit;
 }
 
 #main-toggle {
@@ -96,7 +147,7 @@ header {
 .nav-icon:before,
 .nav-icon:after {
     background-color: aliceblue;
-    content: none;
+    content: "";
     display: block;
     height: 100%;
     width: 100%;
@@ -104,62 +155,15 @@ header {
 }
 
 .nav-icon:before {
-    top: 5px;
+    top: 7px;
+    bottom: 1px;
 }
 
 .nav-icon:after {
-    top: -5px;
+    top: -7px;
+    bottom: -1px;
 }
 
-#dropdown:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-#dropdown ul {
-    float: right;
-    padding: 60px;
-    margin: 0;
-    list-style: none;
-}
-
-#dropdown ul li {
-    margin: -3px;
-    float: left;
-    padding-left: 1px;
-    padding-right: 1px;
-    background-color: beige;
-
-
-
-}
-
-#dropdown a {
-    display: block;
-    padding: 0 15px 0 15px;
-    color: red;
-    font-size: 15px;
-    line-height: 30px;
-    text-decoration: none;
-}
-
-#dropdown ul ul {
-    display: none;
-    position: absolute;
-    top: 60px;
-}
-
-#dropdown ul ul li {
-    width: 60px;
-    float: none;
-    display: list-item;
-    position: relative;
-}
-
-#dropdown ul li:hover>ul {
-    display: inherit;
-}
 
 li>a::after {
     content: "";
@@ -169,10 +173,7 @@ li>a:only-child:after {
     content: "";
 }
 
-#dropdown ul {
-    margin: 0;
-    float: none;
-}
+
 
 
 
@@ -184,8 +185,7 @@ li>a:only-child:after {
 .toggle {
     display: block;
     background-color: red;
-    padding: 0 60px;
-    color: green;
+    padding: 0 40px;
     font-size: 20px;
     line-height: 60px;
     text-decoration: none;
@@ -193,43 +193,25 @@ li>a:only-child:after {
 }
 
 .toggle:hover {
-    background-color: purple;
+    background-color: grey;
 }
 
 [id^=drop]:checked+ul {
     display: block;
 }
 
-#dropdown ul li {
-    display: block;
-    width: 25%;
-    height: auto;
 
-}
 
 #dropdown ul li.toggle,
 #dropdown ul {
     padding: 0 10px;
 }
 
-#dropdown ul ul {
-    float: none;
-    position: static;
-    color: white;
-}
-
-#dropdown ul ul li:hover>ul,
 #dropdown ul li:hover>ul {
     display: none;
 }
 
-#dropdown ul ul li {
-    display: block;
-    width: 50%;
-}
-
-
-
+/**/
 .logo {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
@@ -237,22 +219,27 @@ li>a:only-child:after {
     font-size: 180%;
     list-style-type: none;
     text-decoration: none;
+    padding-left: 20px;
+    padding-top: 10px;
 }
 
 .logo li {
-    text-align: left;
+    text-align: center;
     padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 25px;
+    padding-right: 20px;
     list-style-type: none;
 }
 
 .logo a {
-    float: right;
-    padding: 5px;
-    padding-right: 25px;
+
+    padding: 8px;
+    padding-right: 5px;
+    padding-left: 50px;
     font-size: 15px;
 }
 
+/**/
 #pages {
     font-size: 110%;
     letter-spacing: 2px;
@@ -273,6 +260,9 @@ li>a:only-child:after {
     border-bottom: 2px solid red;
 }
 
+
+
+/*Social Media Icons*/
 #media {
     font-size: 80%;
     letter-spacing: 1px;
@@ -287,14 +277,13 @@ li>a:only-child:after {
     margin-left: 1px;
     padding-right: 10px;
     padding-bottom: 10px;
-
 }
 
 #media a {
     text-decoration: none;
 }
 
-/* Home pages body*/
+/* Home Page Main Body*/
 
 #first {
     display: flex;
@@ -309,7 +298,6 @@ li>a:only-child:after {
     width: auto\9;
     height: auto;
 }
-
 
 .right {
     display: flex;
@@ -378,8 +366,6 @@ li>a:only-child:after {
     padding-top: 20px;
 }
 
-
-
 .mission {
     padding-left: 150px;
     padding-right: 180px;
@@ -424,7 +410,6 @@ li>a:only-child:after {
 }
 
 /*About Page Main Body*/
-
 #info-body {
     padding-top: 30px;
     font-size: 30px;
@@ -489,7 +474,7 @@ li>a:only-child:after {
 .form {
     font-family: 'Brush Script MT', 'Brush Script Std', cursive;
     padding-bottom: 50px;
-    text-align: justify;
+    text-align: left;
     font-size: 20px;
     width: 100%;
     border: 600px;
@@ -498,8 +483,6 @@ li>a:only-child:after {
 .form #message label {
     width: 140px;
 }
-
-
 
 .form-body {
     padding-left: 25%;
@@ -566,7 +549,7 @@ li>a:only-child:after {
     padding-right: 10px;
 }
 
-/*Response & Unavailable Pages*/
+/*Response, Location & Terms of Use Pages*/
 
 #main-body {
     text-align: center;
@@ -593,6 +576,17 @@ li>a:only-child:after {
     text-decoration: none;
 }
 
+#map {
+    text-align: center;
+}
+
+#map h4 {
+    padding-top: 50px;
+}
+
+#map p {
+    padding-bottom: 50px;
+}
 
 
 
@@ -601,6 +595,25 @@ li>a:only-child:after {
 
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width:1200px) {
+
+    #dropdown {
+        width: 40%;
+    }
+
+    #dropdown ul {
+        width: 80%;
+    }
+
+    #dropdown ul li {
+        width: 35%;
+    }
+
+    #dropdown ul li a {
+        padding-right: 10%;
+        padding-left: 10px;
+    }
+
+
 
     /* Home pages body*/
 
@@ -635,13 +648,6 @@ li>a:only-child:after {
         padding-top: 20px;
     }
 
-    .left {
-        display: flex;
-        flex-direction: row;
-        justify-content: left;
-        padding-right: 30px;
-    }
-
     .left h2 {
         text-align: left;
     }
@@ -655,7 +661,6 @@ li>a:only-child:after {
         padding-right: 5px;
         padding-left: 20px;
         padding-top: 25px;
-
     }
 
     .left aside h2 {
@@ -675,8 +680,7 @@ li>a:only-child:after {
     .mission {
         padding-left: 50px;
         padding-right: 80px;
-        padding-bottom: 20px;
-        padding-top: 50px;
+
     }
 
     .mission #left {
@@ -687,35 +691,15 @@ li>a:only-child:after {
         border-radius: 50%;
     }
 
-    #space h1 {
-        font-size: 45px;
-        padding-top: 15px;
-        padding-bottom: 40px;
-    }
-
     #space #first img {
         width: 380px;
         height: 400px;
     }
 
-    #space h2 {
-        font-size: 40px;
-        padding-top: 5px;
-        padding-bottom: 50px;
-    }
-
-    #space h3 {
-        padding-top: 25px;
-        padding-bottom: 15px;
-    }
-
-
-
-
     .logo {
         font-size: 150%;
         padding-bottom: 10px;
-        padding-top: 10px;
+
     }
 
     .logo li {
@@ -738,7 +722,7 @@ li>a:only-child:after {
     #media {
         font-size: 40%;
         letter-spacing: -3px;
-        padding-left: 25px;
+        padding-left: 22%;
 
     }
 
@@ -754,42 +738,13 @@ li>a:only-child:after {
 
     /*About Page Main Body*/
 
-    #info-body {
-        padding-top: 30px;
-        font-size: 30px;
-        font-family: 'Brush Script MT', 'Brush Script Std', cursive;
-    }
-
-    .info {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        padding-left: 90px;
-        padding-right: 90px;
-        padding-top: 70px;
-        padding-bottom: 30px;
-        text-align: justify;
-    }
-
-    .info h4 {
-        font-size: 30px;
-        font-family: 'Brush Script MT', 'Brush Script Std', cursive;
-    }
-
     .info img {
         width: 150px;
         height: 150px;
-        border: 5px solid black;
-    }
-
-    .info-1 h4 {
-        padding-left: 15px;
     }
 
     .info-1 p {
         width: 250px;
-        padding-left: 15px;
-        padding-right: 15px;
     }
 
     /*Contact Page*/
@@ -815,9 +770,6 @@ li>a:only-child:after {
         padding-left: 50px;
         padding-right: 50px;
         padding-bottom: 30px;
-        font-size: 20px;
-        width: 100%;
-
     }
 
     .form-body {
@@ -893,22 +845,13 @@ li>a:only-child:after {
         font-size: 13px;
         padding-left: 50px;
         padding-right: 50px;
-
     }
-
-    .footer {
-        text-align: center;
-
-    }
-
-
-
-
 
 }
 
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width:950px) {
+
 
     main {
         padding-bottom: 20px;
@@ -924,7 +867,22 @@ li>a:only-child:after {
         float: none;
     }
 
+    #dropdown {
+        width: 50%;
+    }
 
+    #dropdown ul {
+        width: 90%;
+    }
+
+    #dropdown ul li {
+        width: 45%;
+    }
+
+    #dropdown ul li a {
+        padding-right: 10%;
+        padding-left: 10px;
+    }
 
     .toggle+a,
     .menu {
@@ -978,12 +936,6 @@ li>a:only-child:after {
 
     #dropdown ul ul ul {
         position: static;
-    }
-
-    .logo {
-        font-size: 150%;
-        padding-bottom: 10px;
-        padding-top: 10px;
     }
 
     .logo li {
@@ -1110,42 +1062,18 @@ li>a:only-child:after {
 
     /*About Page Main Body*/
 
-    #info-body {
-        padding-top: 30px;
-        font-size: 30px;
-        font-family: 'Brush Script MT', 'Brush Script Std', cursive;
-    }
-
     .info {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
         padding-left: 40px;
         padding-right: 40px;
-        padding-top: 70px;
-        padding-bottom: 30px;
-        text-align: justify;
-    }
-
-    .info h4 {
-        font-size: 30px;
-        font-family: 'Brush Script MT', 'Brush Script Std', cursive;
     }
 
     .info img {
         width: 160px;
         height: 160px;
-        border: 5px solid black;
-    }
-
-    .info-1 h4 {
-        padding-left: 15px;
     }
 
     .info-1 p {
         width: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
         font-size: 11px;
     }
 
@@ -1168,25 +1096,6 @@ li>a:only-child:after {
         height: 70px;
     }
 
-    .form-body {
-        padding-left: 20%;
-        padding-right: 20%;
-    }
-
-    .form {
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-bottom: 30px;
-        font-size: 20px;
-        width: 100%
-    }
-
-
-
-    .form-header h1 {
-        font-size: 20px;
-    }
-
     .form name email {
         padding-right: 100px;
     }
@@ -1194,7 +1103,6 @@ li>a:only-child:after {
     .form name surname email {
         width: 200px;
         height: 30px;
-
     }
 
     .form textarea {
@@ -1240,60 +1148,38 @@ li>a:only-child:after {
     /*Footer*/
 
     .footer {
-        width: 100%;
-
         padding-top: 10px;
-        text-align: center;
     }
-
-    .footer a {
-        text-decoration: none;
-    }
-
 }
 
 /* For small screens sizes from 800px wide and down */
 @media screen and (max-width:800px) {
+    body {
+        height: 250vh;
+    }
 
     main {
-        padding-bottom: 20px;
+        padding-bottom: 10px;
     }
 
     /*Header*/
     header {
-        padding-bottom: 10px;
+        padding-bottom: 20px;
 
+    }
+
+    [id^=drop]:checked+ul {
+        display: block;
+    }
+
+    #dropdown {
+        width: 60%;
     }
 
     #dropdown ul {
         margin: 0;
         float: none;
-    }
-
-
-
-    .toggle+a,
-    .menu {
-        display: none;
-    }
-
-    .toggle {
-        display: block;
-        background-color: rgb(112, 60, 60);
-        padding: 0 40px;
-        color: green;
-        font-size: 20px;
-        line-height: 60px;
-        text-decoration: none;
-        border: none;
-    }
-
-    .toggle:hover {
-        background-color: red;
-    }
-
-    [id^=drop]:checked+ul {
-        display: block;
+        width: 90%;
     }
 
     #dropdown ul li {
@@ -1302,54 +1188,73 @@ li>a:only-child:after {
         height: 35px;
     }
 
+    #dropdown ul li a {
+        padding-right: 10%;
+        padding-left: 10px;
+    }
+
     #dropdown ul li.toggle,
     #dropdown ul {
         padding: 0 10px;
     }
 
-    #dropdown ul ul {
-        float: none;
-        position: static;
-        color: white;
-    }
-
-    #dropdown ul ul li:hover>ul,
     #dropdown ul li:hover>ul {
         display: none;
     }
 
-    #dropdown ul ul li {
-        display: block;
-        width: 32%;
+    .toggle+a,
+    .menu {
+        display: none;
     }
 
-    #dropdown ul ul ul {
-        position: static;
+    .toggle {
+        display: block;
+        background-color: red;
+        padding: 0 40px;
+        color: green;
+        font-size: 20px;
+        line-height: 60px;
+        text-decoration: none;
+        border: none;
     }
 
     .logo {
-        padding: 2px;
-
+        padding: 10px;
     }
 
     .logo li {
         padding-left: 2px;
         margin-right: 2px;
-
     }
 
     .logo a {
         padding-right: 2px;
     }
 
+    #media {
+        width: 20%;
+    }
+
+    #media li {
+        width: 30%;
+        padding: 2px;
+    }
+
+    #media li a {
+        width: 20%;
+        padding: 2px;
+    }
+
+    .active {
+        border-bottom: 2px solid red;
+    }
+
     /*About Page Main Body*/
 
     #info-body {
-        padding-top: 30px;
         font-size: 20px;
         padding-left: 20px;
         padding-right: 20px;
-        font-family: 'Brush Script MT', 'Brush Script Std', cursive;
     }
 
     .info {
@@ -1358,33 +1263,22 @@ li>a:only-child:after {
         padding-left: 30px;
         padding-right: 30px;
         padding-top: 20px;
-        padding-bottom: 30px;
-        text-align: justify;
-
     }
 
     .info h4 {
         font-size: 18px;
-        font-family: 'Brush Script MT', 'Brush Script Std', cursive;
     }
 
     .info img {
         width: 100%;
         height: 200px;
-
-        border: 5px solid black;
     }
 
     .info-1 h4 {
-        padding-left: 15px;
         padding-top: 10px;
     }
 
     .info-1 p {
-        width: 100%;
-        font-size: 11px;
-        padding-left: 15px;
-        padding-right: 15px;
         padding-bottom: 10px;
 
     }
@@ -1397,10 +1291,6 @@ li>a:only-child:after {
         padding-bottom: 25px;
     }
 
-    #top h1 {
-        padding-top: 50px;
-        font-size: 30px;
-    }
 
     #top img {
         border-radius: 50%;
@@ -1413,17 +1303,11 @@ li>a:only-child:after {
         padding-right: 1px;
         padding-bottom: 50px;
         font-size: 15px;
-        width: 100%;
-
     }
 
     .form-body {
         padding-left: 10%;
         padding-right: 10%;
-    }
-
-    .form-header h1 {
-        font-size: 20px;
     }
 
     .form name email {
@@ -1493,19 +1377,23 @@ li>a:only-child:after {
 
     }
 
-    .footer {
-        text-align: center;
-        width: 100%;
+    #map {
+        padding-left: 15px;
+    }
 
+    .wrapper {
+        max-width: 290px;
+        border: 1px solid black;
+
+    }
+
+    .google {
+        width: 100%;
     }
 
     .footer a {
         font-size: 10px;
-        text-decoration: none;
-
     }
 
-    * {
-        border: 1px solid red;
-    }
+
 }

@@ -10,46 +10,84 @@ Memories is a private members club that makes your dreams come true. We all have
 ### Site wide
 
 * Navigation Menu
-  * It contains links to the Home, About and Contact pages of the website and is responsive to all devices.
+  * It contains links in a dropdown menu to the Home, About and Contact pages of the website and is responsive to all devices.
   * Plus our four social media platforms - Facebook, Twitter, Instagram and Youtube links that will open in new tabs.
   * This makes it both visually and easy to access for the users to our social media websites.
 
-![Nav bar](assets/images/memories-nav-bar.PNG)
-
+![Nav bar](assets/images/new-memories-header-nav-links.PNG)
+ 
 * Footer
-  * It contains links relating to aspects of the business that will open in different tabs
+  * It contains links relating to aspects of the business that will open in different tabs.
+  * The content contains links to both Location and Terms of Use Pages.
+  * When clicked it will bring you to either pages.
 
+![Footer](assets/images/new-memories-footer.PNG)
 
-![Footer](assets/images/memories-footer.PNG)
-
+* 401 Error Occurred
+ 
+![Error 401](assets/images/page-error-401.PNG)
 
 ### Home Page
 
-* Information
-    * 
+* Home Page Images
+    * This is a collection of images of the user reminiscing on the trips from the past.
+    * It gives the user a visual display and entices the user to join.
+  
+* Home Page Headlines
+   * The user is given a written description of the business and make the user intrigued.
+  
+![Home Page](assets/images/new-memories-home-page.png)
 
-![Home Page](assets/images/memories-home-page.png)
+* Home Page Values
+   * The user understands the core key aspect of the business.
+   * The description of the key values - Commitment, Goals, Mission and Value.
+
+![Home Page Content](assets/images/new-memories-home-content-page.png)
 
 
 ## About Page
 
-* Information
+* About Page Images
+  * The user is displayed with images that might interest them to explore.
 
-![About Page](assets/images/about-page.jpg)
+* About Page Description
+  * This text gives the user some information on what opportunities are available to the user.
+
+![About Page](assets/images/new-memories-about-page.jpg)
 
 ## Contact Page
 
-*Contact Form
+* Contact Form
   * The implementation of a contact form will allow user to contact Memories for more information.
   * This form with consist of the relative fields and attributes
     * Name (required, type=text)
     * Surname (required, type=text)
     * Email (required, type=text)
     * Message (required, type=text)
+  * The user then click the button to request some information back.
+  * The user will be inform of a response from the business in the response page below. 
 
-![Contact Page](assets/images/contact-form.png)
+![Contact Page](assets/images/new-memories-contact-form.png)
 
 ## Response Page
+
+* Response Information
+    * The user will recieve a response regarding the query from the contact form.
+  
+![Response Page](assets/images/new-memories-response-page.png)
+
+## Extra Features
+
+* Terms of Use Page
+  * The user can view the terms of the business in the terms of us page. 
+* Location Page
+  * Google Maps is installed into the location page with address.
+
+## Future Implementation
+
+* Upgrade Stylish Features - Bootstrap.
+* Database implementation to collect and store quiries from Contact Form.
+* Use Javascript to communicate between front-end and back-end.
 
 ## Design
 
@@ -103,6 +141,19 @@ Memories is a private members club that makes your dreams come true. We all have
 
   ## Testing
 
+  * Responsiveness
+  * Accessibility
+  * Lighthouse Testing
+  * Functional Testing
+    * Navigation Links
+    * Form Testing
+    * Header Social Media Icons/Links
+    * Footer Contact Information
+  * Validation Testing
+    * HTML
+    * CSS 
+  * Unfixed Bugs  
+
   ## Deployment
 
 * Version Control
@@ -115,3 +166,8 @@ Memories is a private members club that makes your dreams come true. We all have
   * git push
 
 * Deployment of Live Version from GitHub 
+  
+* Clone the Responsitory Code Locally
+  
+* Credits
+  * Links for Images and Content used in the website. 

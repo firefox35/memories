@@ -151,7 +151,22 @@ Memories is a private members club that makes your dreams come true. We all have
     * Footer Contact Information
   * Validation Testing
     * HTML
+        * index.html
+        ![Home Page](assets/images/index-html-validation.PNG)
+        * about.html
+        ![About Page](assets/images/about-html-validation.PNG)
+        * contact.html
+        ![Contact Page](assets/images/contact-html-validation.PNG)
+        * location.html
+        ![Location Page](assets/images/location-html-validation.PNG)
+        * terms.html
+        ![Terms of Use Page](assets/images/terms-html-validation.PNG)
+        * response.html
+        ![Response Page](assets/images/response-html-validation.PNG)
+
     * CSS 
+        * styles.css
+        ![Response Page](assets/images/memories-css-validation.PNG)
   * Unfixed Bugs  
 
   ## Deployment

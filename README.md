@@ -36,13 +36,13 @@ Memories is a private members club that makes your dreams come true. We all have
 * Home Page Headlines
    * The user is given a written description of the business and make the user intrigued.
   
-![Home Page](assets/images/new-memories-home-page.png)
+![Home Page](assets/images/new-memories-home-page.PNG)
 
 * Home Page Values
    * The user understands the core key aspect of the business.
    * The description of the key values - Commitment, Goals, Mission and Value.
 
-![Home Page Content](assets/images/new-memories-home-content-page.png)
+![Home Page Content](assets/images/new-memories-home-content-page.PNG)
 
 
 ## About Page
@@ -53,7 +53,7 @@ Memories is a private members club that makes your dreams come true. We all have
 * About Page Description
   * This text gives the user some information on what opportunities are available to the user.
 
-![About Page](assets/images/new-memories-about-page.jpg)
+![About Page](assets/images/new-memories-about-page.PNG)
 
 ## Contact Page
 
@@ -67,14 +67,14 @@ Memories is a private members club that makes your dreams come true. We all have
   * The user then click the button to request some information back.
   * The user will be inform of a response from the business in the response page below. 
 
-![Contact Page](assets/images/new-memories-contact-form.png)
+![Contact Page](assets/images/new-memories-contact-form.PNG)
 
 ## Response Page
 
 * Response Information
     * The user will recieve a response regarding the query from the contact form.
   
-![Response Page](assets/images/new-memories-response-page.png)
+![Response Page](assets/images/new-memories-response-page.PNG)
 
 ## Extra Features
 
@@ -96,7 +96,7 @@ Memories is a private members club that makes your dreams come true. We all have
     ![Home Page](assets/images/memories-home-page.png)
 
   * About Page
-    ![About Page](assets/images/about-page.png)
+    ![About Page](assets/images/about-page.jpg)
     
   * Contact Page
     ![Contact Page](assets/images/contact-form.png)

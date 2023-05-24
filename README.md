@@ -53,7 +53,7 @@ Memories is a private members club that makes your dreams come true. We all have
 * About Page Description
   * This text gives the user some information on what opportunities are available to the user.
 
-![About Page](assets/images/new-memories-about-page.png)
+![About Page](assets/images/new-memories-about-page-section-3.png)
 
 ## Contact Page
 

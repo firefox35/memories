@@ -15,7 +15,8 @@
     <header>
         <nav>
             <!--Logo of the Website & Navigation links to each pages-->
-            <div class="logo">Memories
+            <div class="logo">
+                <a href="index.html">Memories</a>
                 <div id="dropdown">
                     <label for="drop" class="toggle" id="main-toggle"><span class="nav-icon"></span></label>
                     <input type="checkbox" id="drop">
@@ -26,29 +27,32 @@
                     </ul>
                     <input type="checkbox" id="drop-3">
                 </div>
-                <!--Media Icon Links-->
-                <ul id="media">
-                    <li>
-                        <a href="https://www.facebook.com">
-                            <img src="assets/images/facebook-round-color-2021-icon.png" alt="facebook"
-                                aria-label="Visit our Facebook page (opens in a new tab)" height="20" width="20"></a>
-                    </li>
-                    <li>
-                        <a href="https://www.twitter.com">
-                            <img src="assets/images/twitter-color-icon.png" alt="twitter"
-                                aria-label="Visit our Twitter page (opens in a new tab)" height="20" width="20"></a>
-                    </li>
-                    <li>
-                        <a href="https://www.YouTube.com">
-                            <img src="assets/images/youtube-round-line-color-icon.png" alt="youtube"
-                                aria-label="Visit our Youtube page (opens in a new tab)" height="20" width="20"></a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com">
-                            <img src="assets/images/ig-instagram-icon.png" alt="instagram"
-                                aria-label="Visit our Instagram page (opens in a new tab)" height="20" width="20"></a>
-                    </li>
-                </ul>
+            </div>
+            <!--Media Icon Links-->
+            <ul id="media">
+                <li>
+                    <a href="https://www.facebook.com">
+                        <img src="assets/images/facebook-round-color-2021-icon.png" alt="facebook" rel="noopener"
+                            target="_blank" aria-label="Visit our Facebook page (opens in a new tab)" height="20"
+                            width="20"></a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com">
+                        <img src="assets/images/twitter-color-icon.png" alt="twitter" rel="noopener" target="_blank"
+                            aria-label="Visit our Twitter page (opens in a new tab)" height="20" width="20"></a>
+                </li>
+                <li>
+                    <a href="https://www.YouTube.com">
+                        <img src="assets/images/youtube-round-line-color-icon.png" alt="youtube" rel="noopener"
+                            target="_blank" aria-label="Visit our Youtube page (opens in a new tab)" height="20"
+                            width="20"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com">
+                        <img src="assets/images/ig-instagram-icon.png" alt="instagram" rel="noopener" target="_blank"
+                            aria-label="Visit our Instagram page (opens in a new tab)" height="20" width="20"></a>
+                </li>
+            </ul>
         </nav>
     </header>
     <!--Main body with Images and a Form to contact the service in text form and send a request.-->
@@ -63,19 +67,19 @@
     <form action="response.html">
         <div class="form-body">
             <div class="form">
-                <div id="name">
+                <div class="name">
                     <label for="fname">Your first name:</label>
                     <input type="text" class="box" id="fname" required>
                 </div>
-                <div id="surname">
+                <div class="surname">
                     <label for="s-name">Your surname:</label>
                     <input type="text" class="box" id="s-name" required>
                 </div>
-                <div id="email">
+                <div class="email">
                     <label for="e-address">Your email address:</label>
                     <input type="text" class="box" id="e-address" required>
                 </div>
-                <div id="message">
+                <div class="message">
                     <label for="text">Please describe your requirements below:</label>
                     <textarea id="text" required></textarea>
                 </div>

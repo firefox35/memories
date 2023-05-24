@@ -21,7 +21,7 @@ main {
 .footer {
     background-color: rgb(245, 240, 220);
     width: 100%;
-    height: auto;
+    height: -5px;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -725,6 +725,8 @@ li>a:only-child:after {
         padding-left: 40px;
     }
 
+
+
     #pages {
         font-size: 90%;
         position: static;
@@ -1180,12 +1182,12 @@ li>a:only-child:after {
     main {
         padding-bottom: 5px;
 
-
     }
 
     /*Header*/
     header {
-        padding-bottom: 20px;
+        padding-bottom: 40px;
+
 
     }
 
@@ -1212,6 +1214,7 @@ li>a:only-child:after {
     #dropdown ul li a {
         padding-right: 10%;
         padding-left: 10px;
+        color: red;
     }
 
     #dropdown ul li.toggle,
@@ -1232,7 +1235,7 @@ li>a:only-child:after {
         display: block;
         background-color: red;
         padding: 0 40px;
-        color: orange;
+
         font-size: 20px;
         line-height: 60px;
         text-decoration: none;
@@ -1240,11 +1243,11 @@ li>a:only-child:after {
     }
 
     .toggle:hover {
-        background-color: grey;
+        background-color: red;
     }
 
     .logo {
-        padding: 10px;
+        padding: 1px;
     }
 
     .logo li {
@@ -1254,6 +1257,7 @@ li>a:only-child:after {
 
     .logo a {
         padding-right: 2px;
+        padding-top: 2px;
     }
 
     #media {
@@ -1293,7 +1297,7 @@ li>a:only-child:after {
         flex-direction: column;
         padding-left: 30px;
         padding-right: 30px;
-        padding-top: 20px;
+        padding-top: 10px;
     }
 
     .info h4 {
@@ -1445,17 +1449,18 @@ li>a:only-child:after {
     }
 
     footer {
-        padding-top: -100px;
-
+        clear: both;
+        padding-top: 10px;
+        height: -20px;
 
 
     }
 
 
     .footer a {
-        font-size: 10px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        font-size: 15px;
+        padding-top: 1px;
+        padding-bottom: 1px;
     }
 
 }

@@ -42,7 +42,7 @@ Memories is a private members club that makes your dreams come true. We all have
    * The user understands the core key aspect of the business.
    * The description of the key values - Commitment, Goals, Mission and Value.
 
-![Home Page Content](assets/images/new-memories-home-content-page.png)
+![Home Page Content](assets/images/new-memories-home-content.png)
 
 
 ## About Page
@@ -53,7 +53,7 @@ Memories is a private members club that makes your dreams come true. We all have
 * About Page Description
   * This text gives the user some information on what opportunities are available to the user.
 
-![About Page](assets/images/new-memories-about-page-section-3.png)
+![About Page](assets/images/new-memories-about-page-section-1.1.png)
 
 ## Contact Page
 

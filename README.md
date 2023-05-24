@@ -14,18 +14,18 @@ Memories is a private members club that makes your dreams come true. We all have
   * Plus our four social media platforms - Facebook, Twitter, Instagram and Youtube links that will open in new tabs.
   * This makes it both visually and easy to access for the users to our social media websites.
 
-![Nav bar](assets/images/new-memories-header-nav-links.PNG)
+![Nav bar](assets/images/new-memories-header-nav-links.png)
  
 * Footer
   * It contains links relating to aspects of the business that will open in different tabs.
   * The content contains links to both Location and Terms of Use Pages.
   * When clicked it will bring you to either pages.
 
-![Footer](assets/images/new-memories-footer.PNG)
+![Footer](assets/images/new-memories-footer.png)
 
 * 401 Error Occurred
  
-![Error 401](assets/images/page-error-401.PNG)
+![Error 401](assets/images/page-error-401.png)
 
 ### Home Page
 
@@ -36,13 +36,13 @@ Memories is a private members club that makes your dreams come true. We all have
 * Home Page Headlines
    * The user is given a written description of the business and make the user intrigued.
   
-![Home Page](assets/images/new-memories-home-page.PNG)
+![Home Page](assets/images/new-memories-home-page.png)
 
 * Home Page Values
    * The user understands the core key aspect of the business.
    * The description of the key values - Commitment, Goals, Mission and Value.
 
-![Home Page Content](assets/images/new-memories-home-content-page.PNG)
+![Home Page Content](assets/images/new-memories-home-content-page.png)
 
 
 ## About Page
@@ -53,7 +53,7 @@ Memories is a private members club that makes your dreams come true. We all have
 * About Page Description
   * This text gives the user some information on what opportunities are available to the user.
 
-![About Page](assets/images/new-memories-about-page.PNG)
+![About Page](assets/images/new-memories-about-page.png)
 
 ## Contact Page
 
@@ -67,14 +67,14 @@ Memories is a private members club that makes your dreams come true. We all have
   * The user then click the button to request some information back.
   * The user will be inform of a response from the business in the response page below. 
 
-![Contact Page](assets/images/new-memories-contact-form.PNG)
+![Contact Page](assets/images/new-memories-contact-form.png)
 
 ## Response Page
 
 * Response Information
     * The user will recieve a response regarding the query from the contact form.
   
-![Response Page](assets/images/new-memories-response-page.PNG)
+![Response Page](assets/images/new-memories-response-page.png)
 
 ## Extra Features
 

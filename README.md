@@ -30,7 +30,7 @@ Footer
 * Loading of Map error. 
 * Link to Google Maps broken due to wrong URL
 ![Error 404](assets/images/map-error-404.PNG)
-![Error 401](assets/images/page-error-401.png)
+
 
 
 ### Home Page
@@ -150,7 +150,12 @@ Responsiveness
 Accessibility
 Lighthouse Testing
 Functional Testing
+
 Navigation Links
+
+* Perform testing was carried out on all navigation links and found to be working perfectly by way of clicking on eack page.
+  * Navigation Link  Page to Load
+  * Home             index.html
 * Form Testing
 * Header Social Media Icons/Links
 * Footer Contact Information
@@ -171,7 +176,7 @@ Validation Testing
 
 CSS 
 * styles.css
-![Response Page](assets/images/memories-css-validation.PNG)
+![Styles CSS File](assets/images/memories-css-validation.PNG)
 
 Unfixed Bugs  
 

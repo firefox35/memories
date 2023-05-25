@@ -147,16 +147,184 @@ Navigation Dropdown List
 ## Testing
 
 Responsiveness
+
+Responsiveness was tested on screen sizes from 320px on Chrome, Edge, Firefox and Opera browsers.
+
+Steps to test:
+
+1. Open browser and navigate to [Memories](https://firefox35.github.io/memories/)
+2. Open the developer tools (right click and inspect)
+3. Set to responsive and decrease width to 320px
+4. Set the zoom to 50%
+5. Click and drag the responsive window to maximum width
+
+Expected:
+
+No issues regards with overlapping, images and links
+
+Result:
+
+No issue to report.
+
+
 Accessibility
+
+The following criteria were met for testing:
+
+* All forms with labels or aria-labels to form inputs were working.
+* Heading levels are not missed. 
+* All navigation links accessibilty.
+* Text or titles descriptions are visuable.
+* HTML page attribute has been set.
+* Aria properties have been implemented correctly.
+  
+Manual testing performed as expected and accessible.
+
+
+### Lighthouse Testing
+
 Lighthouse Testing
+
+Home Page
+![Home](assets/images/home-lighthouse.PNG)
+About Page
+![About](assets/images/about-lighthouse.PNG)
+Contact Page
+![Contact](assets/images/contact-lighthouse.PNG)
+
+
 Functional Testing
 
 Navigation Links
 
 * Perform testing was carried out on all navigation links and found to be working perfectly by way of clicking on eack page.
-  * Navigation Link  Page to Load
-  * Home             index.html
+  
+  | Navigation Link |  Page to Load |
+  |-----------------|---------------|
+  |  Home Page      | index.html    |
+  |  About Page     | about.html    |
+  |  Contact Page   | contact.html  |
+  |  Location Page  | location.html |
+  |  Terms of Use   | terms.html    |
+  |  Response Page  | response.html |
+
+
 * Form Testing
+The form on the contact page was tested to ensure it functionally was correctly working.
+The following test scenarios were covered:
+
+Test 2
+* Input Data
+
+Steps to test:
+
+1. Navigate to [Memories - Contact Page](https://firefox35.github.io/memories/contact.html)
+2. The form is displayed and input the following data into e:
+   * First Name: Peter
+   * Last Name: Lord
+   * Email: peterlord@gmail.com
+   * Comment: This is a test.
+3. Click Submit
+4. User will be redirected to response.html for confirmation.
+
+Expected:
+
+To submit form and get a response back
+
+Result:
+
+No error and worked as expected.
+
+
+Test 2
+
+* First Name missing
+  
+Steps to test:
+
+1. Navigate to [Tacos Travels - Home Page](https://firefox35.github.io/memories/contact.html)
+2. Scroll down to the form and input the following data:
+   * First Name:
+   * Last Name: Lord
+   * Email: peterlord@gmail.com
+   * Comment: This is a test.
+3. Click Submit
+
+Expected:
+
+Form should return comment - Fill in box
+
+Result:
+
+Shown as error message was displayed and the form did not submit.
+
+
+Test 3
+
+* Last Name missing
+
+Steps to test:
+
+1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+2. Scroll down to the form and input the following data:
+   * First Name:Peter
+   * Last Name:
+   * Email: peterlord@gmail.com
+   * Comment: This is a test.
+3. Click Submit
+
+Expected:
+
+Error should show and not submit
+
+Result:
+
+Expected result was shown and behaved as expected.
+
+
+Test 4
+
+* Field Email missing
+
+Steps to test:
+
+1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+2. Scroll down to the form and input the following data:
+   * First Name:Peter
+   * Last Name: Lord
+   * Email:
+   * Comment: This is a test.
+3. Click Submit
+
+Expected:
+
+The form should show error and not submit
+
+Result:
+
+As expected shown error and not submitting
+
+Test 6
+* Email format incorrect
+
+Steps to test:
+
+1. Navigate to [Memories - Contact Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+2. Scroll down to the form and input the following data:
+   * First Name:John
+   * Last Name: Doe
+   * Email: pete.loed@gmail.com
+   * Comment: This is a test.
+3. Click Submit
+
+Expected:
+
+Will shown error as comment not valid email address
+
+Result:
+
+Form shown invalid email address as expected.
+
 * Header Social Media Icons/Links
 * Footer Contact Information
 Validation Testing
@@ -178,7 +346,10 @@ CSS
 * styles.css
 ![Styles CSS File](assets/images/memories-css-validation.PNG)
 
-Unfixed Bugs  
+Unfixed Bugs 
+
+* Responsiveness of the website worked on all devices and screen sizes 
+
 
 ## Deployment
 
@@ -192,10 +363,28 @@ Version Control
 * git push
 
 Deployment of Live Version from GitHub 
-  
+
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
+* In the GitHub repository, navigate to the Settings tab
+* From the menu on left select 'Pages'
+* From the source section drop-down menu, select the Branch: main
+* Click 'Save'
+* A live link will be displayed in a green banner when published successfully.
+
+The live link can be found here - <https://firefox35.github.io/memories/>
+
 Clone the Responsitory Code Locally
-  
+
+* Click on the code drop down button
+* Click on HTTPS
+* Copy the repository link to the clipboard
+* Open your IDE of choice (git must be installed for the next steps)
+* Type git clone copied-git-url into the IDE terminal
+
+The project will now of been cloned on your local machine for use.
+
 Credits
+
 * Links for Images and Content used in the website. 
 * Cars
     * https://hiconsumption.com/fastest-cars-in-the-world/
